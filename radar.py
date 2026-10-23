@@ -102,6 +102,11 @@ def main():
                 deja_la = par_titre.get(titre)
                 if deja_la is None or PRIORITE_TYPE.get(sortie.get("record_type"), 9) < PRIORITE_TYPE.get(deja_la.get("record_type"), 9):
                     par_titre[titre] = sortie
+            # singles extraits d'un album ou EP de la même semaine (même pochette) : on ne garde que l'album
+            pochettes_albums = {s.get("md5_image") for s in par_titre.values()
+                                if s.get("record_type") in ("album", "ep") and s.get("md5_image")}
+            par_titre = {t: s for t, s in par_titre.items()
+                         if s.get("record_type") in ("album", "ep") or s.get("md5_image") not in pochettes_albums}   
 
             for sortie in par_titre.values():
                 if sortie["id"] in nouveautes:
