@@ -1,7 +1,9 @@
 {
-  "genere_le": "2026-10-23T14:41:00+00:00",
+  "genere_le": "2026-10-23T15:40:50+00:00",
   "depuis": "2026-10-16",
   "jusqua": "2026-10-23",
+  "spotify": "absent",
+  "nb_artistes": 17,
   "sorties": [
     {
       "artistes": [
@@ -11,7 +13,8 @@
       "type": "single",
       "date": "2026-10-23",
       "pochette": "https://cdn-images.dzcdn.net/images/cover/d9af13f9d998a91f02164820ab42c52f/250x250-000000-80-0-0.jpg",
-      "lien": "https://www.deezer.com/album/1128673851"
+      "lien": "https://www.deezer.com/album/1128673851",
+      "spotify": "https://open.spotify.com/search/George%20Martin%20...And%20I%20Love%20Her"
     },
     {
       "artistes": [
@@ -21,7 +24,8 @@
       "type": "album",
       "date": "2026-10-23",
       "pochette": "https://cdn-images.dzcdn.net/images/cover/610d937f0818b0f3eb69b5fba215653c/250x250-000000-80-0-0.jpg",
-      "lien": "https://www.deezer.com/album/1119476772"
+      "lien": "https://www.deezer.com/album/1119476772",
+      "spotify": "https://open.spotify.com/search/La%20F%C3%A8ve%20FINIS-LES"
     },
     {
       "artistes": [
@@ -31,7 +35,8 @@
       "type": "ep",
       "date": "2026-10-22",
       "pochette": "https://cdn-images.dzcdn.net/images/cover/6728ae040d0d38f378a6e6e5b2087286/250x250-000000-80-0-0.jpg",
-      "lien": "https://www.deezer.com/album/1128312211"
+      "lien": "https://www.deezer.com/album/1128312211",
+      "spotify": "https://open.spotify.com/search/Rico%20Ace%20Nomad"
     },
     {
       "artistes": [
@@ -41,57 +46,8 @@
       "type": "single",
       "date": "2026-10-22",
       "pochette": "https://cdn-images.dzcdn.net/images/cover/9b1c10fbe4c3e1fed04e5a2dfb1fa36b/250x250-000000-80-0-0.jpg",
-      "lien": "https://www.deezer.com/album/1120586472"
-    },
-    {
-      "artistes": [
-        "La Fève"
-      ],
-      "titre": "RR (feat. Flacko cram)",
-      "type": "single",
-      "date": "2026-10-22",
-      "pochette": "https://cdn-images.dzcdn.net/images/cover/610d937f0818b0f3eb69b5fba215653c/250x250-000000-80-0-0.jpg",
-      "lien": "https://www.deezer.com/album/1121171722"
-    },
-    {
-      "artistes": [
-        "La Fève"
-      ],
-      "titre": "RS CARBON (feat. 1PLIKÉ140)",
-      "type": "single",
-      "date": "2026-10-22",
-      "pochette": "https://cdn-images.dzcdn.net/images/cover/610d937f0818b0f3eb69b5fba215653c/250x250-000000-80-0-0.jpg",
-      "lien": "https://www.deezer.com/album/1121171812"
-    },
-    {
-      "artistes": [
-        "La Fève"
-      ],
-      "titre": "NAN! (feat. Bedry & 63KLUF)",
-      "type": "single",
-      "date": "2026-10-22",
-      "pochette": "https://cdn-images.dzcdn.net/images/cover/610d937f0818b0f3eb69b5fba215653c/250x250-000000-80-0-0.jpg",
-      "lien": "https://www.deezer.com/album/1121177132"
-    },
-    {
-      "artistes": [
-        "La Fève"
-      ],
-      "titre": "VILLE (feat. Rim'K)",
-      "type": "single",
-      "date": "2026-10-22",
-      "pochette": "https://cdn-images.dzcdn.net/images/cover/610d937f0818b0f3eb69b5fba215653c/250x250-000000-80-0-0.jpg",
-      "lien": "https://www.deezer.com/album/1121182872"
-    },
-    {
-      "artistes": [
-        "La Fève"
-      ],
-      "titre": "APPELLE LA POLICE (feat. Theodora)",
-      "type": "single",
-      "date": "2026-10-22",
-      "pochette": "https://cdn-images.dzcdn.net/images/cover/610d937f0818b0f3eb69b5fba215653c/250x250-000000-80-0-0.jpg",
-      "lien": "https://www.deezer.com/album/1121182972"
+      "lien": "https://www.deezer.com/album/1120586472",
+      "spotify": "https://open.spotify.com/search/La%20F%C3%A8ve%20BOOSKA%20FINITION"
     },
     {
       "artistes": [
@@ -101,7 +57,8 @@
       "type": "single",
       "date": "2026-10-21",
       "pochette": "https://cdn-images.dzcdn.net/images/cover/35ae9b931d6b4a3dc97c4e282127eb4f/250x250-000000-80-0-0.jpg",
-      "lien": "https://www.deezer.com/album/1121862892"
+      "lien": "https://www.deezer.com/album/1121862892",
+      "spotify": "https://open.spotify.com/search/S%C3%A9bastien%20Tellier%20Loup%20%28Remixes%29"
     }
   ]
 }

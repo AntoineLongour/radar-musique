@@ -210,7 +210,7 @@
 
     function creerCarte(sortie) {
       const carte = creer("a", "carte");
-      carte.href = sortie.lien;
+      carte.href = sortie.spotify || sortie.lien;   // ouvre la recherche Spotify, sinon Deezer
       carte.target = "_blank";
       carte.rel = "noopener";
 
@@ -283,6 +283,10 @@
         const misAJour = new Date(donnees.genere_le);
         document.getElementById("pied").textContent =
           `Mis à jour le ${misAJour.toLocaleDateString("fr-FR")} à ${misAJour.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}`;
+        if (donnees.spotify === "erreur") {
+          document.querySelector("header").append(creer("div", "message",
+            "La connexion à Spotify a échoué, probablement parce que la clé a expiré (elle dure 6 mois). Relance spotify_token.py et mets à jour le secret SPOTIFY_REFRESH_TOKEN sur GitHub. En attendant, le radar utilise seulement artists.txt."));
+        }
         afficher();
       })
       .catch(erreur => {
@@ -294,4 +298,3 @@
   </script>
 </body>
 </html>
-
