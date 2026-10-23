@@ -1,0 +1,56 @@
+name: Radar du vendredi
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # tous les jours à 5 h UTC, soit 6 h ou 7 h à Paris selon l'heure d'été
+  workflow_dispatch:       # ajoute un bouton pour le lancer à la main
+  push:
+    branches: [main]       # republie aussi à chaque fois que tu pousses une modification
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - name: Récupérer le code du repo
+        uses: actions/checkout@v5
+
+      - name: Installer Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Installer les bibliothèques
+        run: pip install -r requirements.txt
+
+      - name: Lancer le radar
+        run: python radar.py
+
+      - name: Préparer le site
+        run: |
+          mkdir site
+          cp index.html releases.json site/
+
+      - name: Configurer GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Envoyer le site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - name: Publier
+        id: deploiement
+        uses: actions/deploy-pages@v5
+        
