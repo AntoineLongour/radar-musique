@@ -48,8 +48,23 @@
     .page {
       max-width: 1080px;
       margin: 0 auto;
-      padding: 40px 20px 64px;
+      padding: 28px 20px 64px;
     }
+
+    /* ---------- Onglets entre les deux pages ---------- */
+    .onglets { display: flex; gap: 22px; margin-bottom: 32px; }
+    .onglets a {
+      font: 500 12px var(--mono);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--discret);
+      text-decoration: none;
+      padding-bottom: 4px;
+      border-bottom: 2px solid transparent;
+    }
+    .onglets a:hover { color: var(--texte); }
+    .onglets a[aria-current="page"] { color: var(--texte); border-bottom-color: var(--accent); }
+    .onglets a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 
     /* ---------- En-tête ---------- */
     header { display: grid; gap: 6px; margin-bottom: 28px; }
@@ -166,6 +181,11 @@
 </head>
 <body>
   <div class="page">
+    <nav class="onglets" aria-label="Pages du site">
+      <a href="index.html" aria-current="page">Radar</a>
+      <a href="wrapped.html">Ma semaine</a>
+    </nav>
+
     <header>
       <div class="sur-titre">Les sorties de tes artistes</div>
       <h1>Radar du <span>vendredi</span></h1>
@@ -298,3 +318,4 @@
   </script>
 </body>
 </html>
+

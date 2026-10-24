@@ -1,0 +1,123 @@
+{
+  "genere_le": "2026-10-24T18:25:29+02:00",
+  "semaines": [
+    {
+      "semaine": "2026-S43",
+      "numero": 43,
+      "du": "2026-10-19",
+      "au": "2026-10-25",
+      "en_cours": true,
+      "debut_collecte": true,
+      "ecoutes": 50,
+      "minutes": 188,
+      "titres_differents": 45,
+      "artistes_differents": 68,
+      "evolution": null,
+      "top_artistes": [
+        {
+          "nom": "America",
+          "ecoutes": 3,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
+          "mouvement": null
+        },
+        {
+          "nom": "George Martin",
+          "ecoutes": 3,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
+          "mouvement": null
+        },
+        {
+          "nom": "Sufjan Stevens",
+          "ecoutes": 2,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e020db3901606954f424070ff01",
+          "mouvement": null
+        },
+        {
+          "nom": "Junip",
+          "ecoutes": 2,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e02dcbbb5385b4a41bdc01162b1",
+          "mouvement": null
+        },
+        {
+          "nom": "Genesis",
+          "ecoutes": 2,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e02945c366eda66495226e4a46d",
+          "mouvement": null
+        }
+      ],
+      "top_titres": [
+        {
+          "titre": "A Horse with No Name",
+          "artistes": "America, George Martin",
+          "ecoutes": 3,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
+          "lien": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt"
+        },
+        {
+          "titre": "Futile Devices (Doveman Remix)",
+          "artistes": "Sufjan Stevens",
+          "ecoutes": 2,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e020db3901606954f424070ff01",
+          "lien": "https://open.spotify.com/track/5vTSnZTmS1gMiWuA9kDE19"
+        },
+        {
+          "titre": "Don't Let It Pass",
+          "artistes": "Junip",
+          "ecoutes": 2,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e02dcbbb5385b4a41bdc01162b1",
+          "lien": "https://open.spotify.com/track/5crKkvR3otZ1D6VIvziTQR"
+        },
+        {
+          "titre": "That's All - 2007 Remaster",
+          "artistes": "Genesis",
+          "ecoutes": 2,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e02945c366eda66495226e4a46d",
+          "lien": "https://open.spotify.com/track/2zFdsAIk9r2Mi7Lmm1w3sM"
+        },
+        {
+          "titre": "Let Me Love You",
+          "artistes": "Mario",
+          "ecoutes": 1,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e02c42212db6d665fab0c51d495",
+          "lien": "https://open.spotify.com/track/3ibKnFDaa3GhpPGlOUj7ff"
+        }
+      ],
+      "decouvertes": null,
+      "minutes_par_jour": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        188,
+        0
+      ],
+      "ecoutes_par_heure": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        16,
+        13,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

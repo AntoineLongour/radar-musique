@@ -41,10 +41,13 @@ jobs:
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
 
+      - name: Calculer le wrapped de la semaine
+        run: python wrapped.py
+
       - name: Préparer le site
         run: |
           mkdir site
-          cp index.html releases.json site/
+          cp index.html releases.json wrapped.html wrapped.json site/
 
       - name: Configurer GitHub Pages
         uses: actions/configure-pages@v5

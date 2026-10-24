@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ma semaine en musique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* ---------- Couleurs et polices : les mêmes que le radar ---------- */
+    :root {
+      --fond: #eef0f3;
+      --carte: #ffffff;
+      --texte: #15161a;
+      --discret: #646a75;
+      --trait: #d9dde3;
+      --accent: #3b3bf0;
+      --sticker: #ffd84d;
+      --sticker-texte: #15161a;
+      --titre: "Big Shoulders Display", "Arial Narrow", sans-serif;
+      --corps: "IBM Plex Sans", system-ui, sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fond: #0f1013;
+        --carte: #1a1c21;
+        --texte: #eceef1;
+        --discret: #9298a3;
+        --trait: #2b2e35;
+        --accent: #8d8cff;
+        --sticker: #ffd84d;
+        --sticker-texte: #15161a;
+        color-scheme: dark;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--fond);
+      color: var(--texte);
+      font-family: var(--corps);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 28px 20px 64px; }
+
+    /* ---------- Onglets entre les deux pages ---------- */
+    .onglets { display: flex; gap: 22px; margin-bottom: 32px; }
+    .onglets a {
+      font: 500 12px var(--mono);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--discret);
+      text-decoration: none;
+      padding-bottom: 4px;
+      border-bottom: 2px solid transparent;
+    }
+    .onglets a:hover { color: var(--texte); }
+    .onglets a[aria-current="page"] { color: var(--texte); border-bottom-color: var(--accent); }
+
+    /* ---------- En-tête ---------- */
+    header { display: grid; gap: 6px; margin-bottom: 24px; }
+    .sur-titre {
+      font: 500 12px var(--mono);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--discret);
+    }
+    h1 {
+      font-family: var(--titre);
+      font-weight: 900;
+      font-size: clamp(44px, 9vw, 88px);
+      line-height: 0.9;
+      margin: 0;
+      text-transform: uppercase;
+    }
+    h1 span { color: var(--accent); }
+    .resume { color: var(--discret); margin: 6px 0 0; }
+    .navigation-semaines { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    button {
+      font: 600 14px var(--corps);
+      color: var(--texte);
+      background: transparent;
+      border: 1.5px solid var(--trait);
+      border-radius: 999px;
+      padding: 6px 14px;
+      cursor: pointer;
+    }
+    button:hover:not(:disabled) { border-color: var(--texte); }
+    button:disabled { opacity: 0.4; cursor: default; }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+    /* ---------- Chiffres clés ---------- */
+    .chiffres {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 44px;
+    }
+    .tuile {
+      background: var(--carte);
+      border-radius: 8px;
+      padding: 18px;
+      display: grid;
+      gap: 4px;
+      align-content: start;
+      min-width: 0;
+    }
+    .libelle { font-size: 13px; color: var(--discret); }
+    .valeur { font: 600 32px/1.1 var(--corps); }
+    .vedette .valeur { font-size: clamp(48px, 7vw, 64px); }
+    .detail, .delta { font-size: 13px; color: var(--discret); }
+    .delta { color: var(--texte); }
+
+    /* ---------- Sections ---------- */
+    section { margin-bottom: 44px; min-width: 0; }
+    h2 {
+      font-family: var(--titre);
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1.1;
+      text-transform: uppercase;
+      margin: 0 0 4px;
+    }
+    .sous-titre { color: var(--discret); margin: 0 0 16px; font-size: 14px; }
+    .deux-colonnes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 0 48px;
+    }
+
+    /* ---------- Classements ---------- */
+    .classement { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+    .ligne {
+      display: grid;
+      grid-template-columns: 28px 56px minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 12px;
+      padding: 6px;
+      border-radius: 6px;
+      color: inherit;
+      text-decoration: none;
+    }
+    a.ligne:hover { background: var(--carte); }
+    .rang { font: 700 26px var(--titre); text-align: center; color: var(--discret); }
+    li:first-child .rang { color: var(--accent); }
+    .vignette { width: 56px; height: 56px; border-radius: 4px; background: var(--trait); object-fit: cover; display: block; }
+    .nom { font-weight: 600; line-height: 1.3; overflow-wrap: anywhere; }
+    .sous { font-size: 13px; color: var(--discret); overflow-wrap: anywhere; }
+    .mouvement { font: 500 12px var(--mono); color: var(--discret); white-space: nowrap; }
+    .mouvement.nouveau { background: var(--sticker); color: var(--sticker-texte); padding: 2px 6px; border-radius: 4px; }
+
+    /* ---------- Graphiques ---------- */
+    .barres {
+      display: flex;
+      align-items: stretch;
+      gap: 2px;
+      height: 170px;
+      padding-top: 24px;
+      border-bottom: 1px solid var(--trait);
+    }
+    .colonne {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      border-radius: 4px 4px 0 0;
+    }
+    .colonne:hover .barre, .colonne:focus-visible .barre { opacity: 0.75; }
+    .barre {
+      position: relative;
+      width: 100%;
+      max-width: 24px;
+      background: var(--accent);
+      border-radius: 4px 4px 0 0;
+    }
+    .cap {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-bottom: 4px;
+      font: 500 12px var(--mono);
+      color: var(--texte);
+      white-space: nowrap;
+    }
+    .axe { display: flex; gap: 2px; margin-top: 6px; }
+    .axe span {
+      flex: 1;
+      min-width: 0;
+      text-align: center;
+      white-space: nowrap;
+      font: 500 11px var(--mono);
+      color: var(--discret);
+    }
+    .lecture { margin: 10px 0 0; font-size: 13px; color: var(--discret); min-height: 1.5em; }
+
+    details { margin-top: -20px; margin-bottom: 44px; }
+    summary { cursor: pointer; color: var(--discret); font-size: 14px; }
+    .tableaux { display: flex; flex-wrap: wrap; gap: 32px; margin-top: 12px; }
+    table { border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+    th, td { text-align: left; padding: 3px 16px 3px 0; border-bottom: 1px solid var(--trait); }
+    th { color: var(--discret); font-weight: 600; }
+
+    /* ---------- Découvertes ---------- */
+    .puces { display: flex; flex-wrap: wrap; gap: 8px; }
+    .puce {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 8px;
+      border: 1.5px solid var(--trait);
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-weight: 600;
+      font-size: 14px;
+      color: inherit;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+    a.puce:hover { border-color: var(--texte); }
+    .puce span { font: 500 12px var(--mono); color: var(--discret); white-space: nowrap; }
+
+    /* ---------- Messages et pied de page ---------- */
+    .message {
+      background: var(--carte);
+      border: 1.5px dashed var(--trait);
+      border-radius: 8px;
+      padding: 24px 20px;
+      text-align: center;
+      color: var(--discret);
+    }
+    .note { margin: 0 0 24px; padding: 12px 16px; text-align: left; }
+    footer { margin-top: 48px; font: 500 12px var(--mono); color: var(--discret); }
+
+    @media (max-width: 720px) {
+      .chiffres { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+      .vedette { grid-column: 1 / -1; }
+      .tuile { padding: 14px 12px; }
+      .tuile:not(.vedette) .libelle { min-height: 3em; }   /* aligne les chiffres même si le libellé passe sur 2 lignes */
+      .valeur { font-size: 24px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="onglets" aria-label="Pages du site">
+      <a href="index.html">Radar</a>
+      <a href="wrapped.html" aria-current="page">Ma semaine</a>
+    </nav>
+
+    <header>
+      <div class="sur-titre">Ton wrapped de la semaine</div>
+      <h1 id="titre">Ma semaine</h1>
+      <p class="resume" id="periode">Chargement…</p>
+      <div class="navigation-semaines">
+        <button type="button" id="precedente" disabled>← Semaine précédente</button>
+        <button type="button" id="suivante" disabled>Semaine suivante →</button>
+      </div>
+    </header>
+
+    <div class="message note" id="note" hidden></div>
+
+    <main id="contenu"></main>
+
+    <footer id="pied"></footer>
+  </div>
+
+  <script>
+    const JOURS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
+    const JOURS_COURTS = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"];
+
+    let semaines = [];   // rempli quand wrapped.json est chargé, la plus récente en premier
+    let index = 0;       // la semaine affichée
+
+    // "2026-10-23" -> objet Date (en heure locale, pour éviter un décalage d'un jour)
+    function versDate(texte) {
+      const [annee, mois, jour] = texte.split("-").map(Number);
+      return new Date(annee, mois - 1, jour);
+    }
+    const formatCourt = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "long" });
+    const nombre = n => n.toLocaleString("fr-FR");
+
+    // Petit raccourci pour créer un élément HTML avec une classe et un texte
+    function creer(balise, classe, texte) {
+      const el = document.createElement(balise);
+      if (classe) el.className = classe;
+      if (texte !== undefined) el.textContent = texte;   // textContent : le texte n'est jamais interprété comme du HTML
+      return el;
+    }
+
+    function enHeures(minutes) {
+      if (minutes < 60) return null;
+      return `soit ${Math.floor(minutes / 60)} h ${String(minutes % 60).padStart(2, "0")}`;
+    }
+
+    // +12 -> "▲ +12 % vs la semaine dernière"
+    function texteEvolution(valeur, enCours) {
+      if (valeur === null || valeur === undefined) return null;
+      const fleche = valeur > 0 ? "▲" : valeur < 0 ? "▼" : "=";
+      const chiffre = valeur === 0 ? "stable" : `${valeur > 0 ? "+" : "−"}${Math.abs(valeur)} %`;
+      const periode = enCours ? "vs le même moment la semaine dernière" : "vs la semaine dernière";
+      return `${fleche} ${chiffre} ${periode}`;
+    }
+
+    // ---------- Chiffres clés ----------
+    function tuile(libelle, valeur, detail, delta, vedette) {
+      const t = creer("div", vedette ? "tuile vedette" : "tuile");
+      t.append(creer("div", "libelle", libelle), creer("div", "valeur", valeur));
+      if (detail) t.append(creer("div", "detail", detail));
+      if (delta) t.append(creer("div", "delta", delta));
+      return t;
+    }
+
+    function chiffresCles(s) {
+      const bloc = creer("div", "chiffres");
+      const evo = s.evolution || {};
+      bloc.append(
+        tuile("Minutes d'écoute", nombre(s.minutes), enHeures(s.minutes), texteEvolution(evo.minutes, s.en_cours), true),
+        tuile("Écoutes", nombre(s.ecoutes), null, texteEvolution(evo.ecoutes, s.en_cours)),
+        tuile("Titres différents", nombre(s.titres_differents)),
+        tuile("Artistes différents", nombre(s.artistes_differents)),
+      );
+      return bloc;
+    }
+
+    // ---------- Classements ----------
+    function vignette(url, texte) {
+      if (!url) return creer("div", "vignette");
+      const img = document.createElement("img");
+      img.className = "vignette";
+      img.src = url;
+      img.alt = texte;
+      img.loading = "lazy";
+      return img;
+    }
+
+    function texteMouvement(m) {
+      if (m === null || m === undefined) return null;
+      if (m === "nouveau") return ["Nouveau", "N'était pas écouté la semaine dernière"];
+      if (m > 0) return [`▲ ${m}`, `${m} place${m > 1 ? "s" : ""} de mieux que la semaine dernière`];
+      if (m < 0) return [`▼ ${-m}`, `${-m} place${m < -1 ? "s" : ""} de moins que la semaine dernière`];
+      return ["=", "Même place que la semaine dernière"];
+    }
+
+    function ligne(rang, image, nom, sous, lien, mouvement) {
+      const li = creer("li");
+      const conteneur = lien ? creer("a", "ligne") : creer("div", "ligne");
+      if (lien) {
+        conteneur.href = lien;
+        conteneur.target = "_blank";
+        conteneur.rel = "noopener";
+      }
+      const textes = creer("div");
+      textes.append(creer("div", "nom", nom), creer("div", "sous", sous));
+      conteneur.append(creer("span", "rang", String(rang)), image, textes);
+      const m = texteMouvement(mouvement);
+      if (m) {
+        const badge = creer("span", mouvement === "nouveau" ? "mouvement nouveau" : "mouvement", m[0]);
+        badge.title = m[1];
+        conteneur.append(badge);
+      }
+      li.append(conteneur);
+      return li;
+    }
+
+    function classements(s) {
+      const colonnes = creer("div", "deux-colonnes");
+
+      const artistes = creer("section");
+      artistes.append(creer("h2", null, "Top artistes"), creer("p", "sous-titre", "Un featuring compte pour chaque artiste du morceau"));
+      const listeArtistes = creer("ol", "classement");
+      s.top_artistes.forEach((a, i) => listeArtistes.append(ligne(
+        i + 1, vignette(a.pochette, ""), a.nom, `${nombre(a.ecoutes)} écoute${a.ecoutes > 1 ? "s" : ""}`,
+        `https://open.spotify.com/search/${encodeURIComponent(a.nom)}`, a.mouvement)));
+      artistes.append(listeArtistes);
+
+      const titres = creer("section");
+      titres.append(creer("h2", null, "Top titres"), creer("p", "sous-titre", "Clique sur un titre pour l'écouter sur Spotify"));
+      const listeTitres = creer("ol", "classement");
+      s.top_titres.forEach((t, i) => listeTitres.append(ligne(
+        i + 1, vignette(t.pochette, `Pochette de ${t.titre}`), t.titre,
+        `${t.artistes} · ${nombre(t.ecoutes)} écoute${t.ecoutes > 1 ? "s" : ""}`, t.lien)));
+      titres.append(listeTitres);
+
+      colonnes.append(artistes, titres);
+      return colonnes;
+    }
+
+    // ---------- Graphiques en barres ----------
+    function graphique(titre, resume, valeurs, etiquettes, noms, unite) {
+      const section = creer("section");
+      section.append(creer("h2", null, titre), creer("p", "sous-titre", resume));
+
+      const max = Math.max(...valeurs);
+      const indexMax = valeurs.indexOf(max);
+      const barres = creer("div", "barres");
+      const consigne = "Survole une barre pour voir le détail.";
+      const lecture = creer("p", "lecture", consigne);
+      lecture.setAttribute("aria-live", "polite");
+
+      valeurs.forEach((valeur, i) => {
+        const colonne = creer("div", "colonne");
+        const texte = `${noms[i]} : ${nombre(valeur)} ${unite}`;
+        colonne.tabIndex = 0;
+        colonne.dataset.texte = texte;
+        colonne.setAttribute("aria-label", texte);
+        const barre = creer("div", "barre");
+        barre.style.height = max > 0 ? `${(valeur / max) * 100}%` : "0";
+        if (i === indexMax && max > 0) barre.append(creer("span", "cap", nombre(valeur)));   // seule la plus haute porte son chiffre
+        colonne.append(barre);
+        barres.append(colonne);
+      });
+
+      const montrer = evenement => {
+        const colonne = evenement.target.closest(".colonne");
+        if (colonne) lecture.textContent = colonne.dataset.texte;
+      };
+      barres.addEventListener("mouseover", montrer);
+      barres.addEventListener("focusin", montrer);
+      barres.addEventListener("mouseleave", () => { lecture.textContent = consigne; });
+      barres.addEventListener("focusout", () => { lecture.textContent = consigne; });
+
+      const axe = creer("div", "axe");
+      etiquettes.forEach(e => axe.append(creer("span", null, e)));
+      section.append(barres, axe, lecture);
+      return section;
+    }
+
+    function tableau(entetes, lignes) {
+      const table = creer("table");
+      const tete = creer("tr");
+      entetes.forEach(e => tete.append(creer("th", null, e)));
+      table.append(tete);
+      lignes.forEach(cellules => {
+        const tr = creer("tr");
+        cellules.forEach(c => tr.append(creer("td", null, c)));
+        table.append(tr);
+      });
+      return table;
+    }
+
+    function rythme(s) {
+      const fragment = document.createDocumentFragment();
+      const colonnes = creer("div", "deux-colonnes");
+
+      const minutesJour = s.minutes_par_jour;
+      const maxJour = Math.max(...minutesJour);
+      const resumeJour = maxJour > 0
+        ? `Ton jour le plus musical : ${JOURS[minutesJour.indexOf(maxJour)].toLowerCase()}, avec ${nombre(maxJour)} min`
+        : "Pas encore de minutes d'écoute cette semaine";
+      colonnes.append(graphique("Minutes par jour", resumeJour, minutesJour, JOURS_COURTS, JOURS, "min"));
+
+      const parHeure = s.ecoutes_par_heure;
+      const maxHeure = Math.max(...parHeure);
+      const heure = parHeure.indexOf(maxHeure);
+      const resumeHeure = maxHeure > 0
+        ? `Heure de pointe : entre ${heure} h et ${heure + 1} h, avec ${nombre(maxHeure)} écoutes`
+        : "Pas encore d'écoute cette semaine";
+      const etiquettesHeures = parHeure.map((_, h) => (h % 6 === 0 ? `${h} h` : ""));
+      const nomsHeures = parHeure.map((_, h) => `De ${h} h à ${h + 1} h`);
+      colonnes.append(graphique("Écoutes par heure", resumeHeure, parHeure, etiquettesHeures, nomsHeures, "écoute(s)"));
+
+      // les mêmes chiffres en tableau, pour les lire sans survoler
+      const details = creer("details");
+      details.append(creer("summary", null, "Voir les chiffres"));
+      const tableaux = creer("div", "tableaux");
+      tableaux.append(
+        tableau(["Jour", "Minutes"], JOURS.map((j, i) => [j, nombre(minutesJour[i])])),
+        tableau(["Heure", "Écoutes"], parHeure.map((n, h) => [`${h} h`, nombre(n)])),
+      );
+      details.append(tableaux);
+
+      fragment.append(colonnes, details);
+      return fragment;
+    }
+
+    // ---------- Découvertes ----------
+    function decouvertes(s) {
+      const section = creer("section");
+      section.append(creer("h2", null, "Découvertes"));
+      if (s.decouvertes === null) {
+        section.append(creer("div", "message", "Les découvertes apparaîtront dès que tu auras plus d'une semaine d'historique."));
+        return section;
+      }
+      section.append(creer("p", "sous-titre", "Artistes que tu n'avais jamais écoutés depuis le début de la collecte"));
+      if (s.decouvertes.length === 0) {
+        section.append(creer("div", "message", "Aucun nouvel artiste cette semaine : tu es resté sur tes classiques."));
+        return section;
+      }
+      const puces = creer("div", "puces");
+      s.decouvertes.forEach(d => {
+        const puce = creer("a", "puce", d.nom);
+        puce.href = `https://open.spotify.com/search/${encodeURIComponent(d.nom)}`;
+        puce.target = "_blank";
+        puce.rel = "noopener";
+        puce.append(creer("span", null, `${nombre(d.ecoutes)} écoute${d.ecoutes > 1 ? "s" : ""}`));
+        puces.append(puce);
+      });
+      section.append(puces);
+      return section;
+    }
+
+    // ---------- Affichage d'une semaine ----------
+    function afficher() {
+      const s = semaines[index];
+
+      const titre = document.getElementById("titre");
+      titre.replaceChildren("Semaine ", creer("span", null, String(s.numero)));
+      document.getElementById("periode").textContent =
+        `Du ${formatCourt.format(versDate(s.du))} au ${formatCourt.format(versDate(s.au))}` + (s.en_cours ? " · semaine en cours" : "");
+
+      const precedente = document.getElementById("precedente");
+      const suivante = document.getElementById("suivante");
+      precedente.disabled = index >= semaines.length - 1;
+      suivante.disabled = index === 0;
+      suivante.textContent = index > 0 && semaines[index - 1].en_cours ? "Semaine en cours →" : "Semaine suivante →";
+
+      const note = document.getElementById("note");
+      note.hidden = !s.debut_collecte;
+      note.textContent = "La collecte de tes écoutes a commencé pendant cette semaine : les chiffres sont incomplets.";
+
+      document.getElementById("contenu").replaceChildren(chiffresCles(s), classements(s), rythme(s), decouvertes(s));
+    }
+
+    document.getElementById("precedente").addEventListener("click", () => { index += 1; afficher(); });
+    document.getElementById("suivante").addEventListener("click", () => { index -= 1; afficher(); });
+
+    // ---------- Chargement de wrapped.json, généré par wrapped.py ----------
+    fetch("wrapped.json", { cache: "no-store" })
+      .then(reponse => {
+        if (!reponse.ok) throw new Error(`wrapped.json introuvable (erreur ${reponse.status})`);
+        return reponse.json();
+      })
+      .then(donnees => {
+        semaines = donnees.semaines;
+        const misAJour = new Date(donnees.genere_le);
+        document.getElementById("pied").textContent =
+          `Mis à jour le ${misAJour.toLocaleDateString("fr-FR")} à ${misAJour.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })} · Données : Spotify`;
+
+        if (semaines.length === 0) {
+          document.getElementById("periode").textContent = "";
+          document.getElementById("contenu").replaceChildren(creer("div", "message",
+            "Pas encore d'écoutes enregistrées. La collecte tourne toutes les heures : reviens un peu plus tard."));
+          return;
+        }
+        // par défaut : la dernière semaine terminée, sinon la semaine en cours
+        const terminee = semaines.findIndex(s => !s.en_cours);
+        index = terminee === -1 ? 0 : terminee;
+        afficher();
+      })
+      .catch(erreur => {
+        document.getElementById("periode").textContent = "";
+        document.getElementById("contenu").replaceChildren(
+          creer("div", "message", `Impossible de charger tes statistiques : ${erreur.message}`));
+      });
+  </script>
+</body>
+</html>
