@@ -1,0 +1,51 @@
+name: Collecte des écoutes
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # toutes les heures, à la 17e minute (GitHub est surchargé pile à l'heure)
+  workflow_dispatch:        # ajoute un bouton pour la lancer à la main
+
+permissions:
+  contents: write           # le droit d'enregistrer les écoutes dans le repo
+
+concurrency:
+  group: ecoutes
+  cancel-in-progress: false
+
+jobs:
+  collecter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code du repo
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Installer Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Installer les bibliothèques
+        run: pip install -r requirements.txt
+
+      - name: Récupérer les dernières écoutes
+        run: python ecoutes.py
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+
+      - name: Enregistrer les écoutes dans le repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add historique
+          if git diff --cached --quiet; then
+            echo "Rien de nouveau à enregistrer."
+          else
+            git commit -m "Ajoute les écoutes du $(TZ=Europe/Paris date +'%d/%m à %H:%M')"
+            git pull --rebase
+            git push
+          fi
+          
