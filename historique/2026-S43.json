@@ -917,5 +917,53 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02e76d7a715ca073a6e19bdc02",
   "lien": "https://open.spotify.com/track/3Vole4zIKRzYnzv5GpogVa",
   "duree_ms": 140253
+ },
+ {
+  "date": "2026-10-25T17:42:34.110Z",
+  "titre": "Fancy Footwork",
+  "id": "52VaYLDBhX5vNd8taZxA1R",
+  "artistes": [
+   "Chromeo"
+  ],
+  "album": "Fancy Footwork",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ecf6aa54acc1b5dae366829b",
+  "lien": "https://open.spotify.com/track/52VaYLDBhX5vNd8taZxA1R",
+  "duree_ms": 198019
+ },
+ {
+  "date": "2026-10-25T17:46:07.390Z",
+  "titre": "Tout s'en va",
+  "id": "2hAGhcEdiKZqWnC9UDleOJ",
+  "artistes": [
+   "Charles Aznavour"
+  ],
+  "album": "Entre deux rêves",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02c3819452ba645478410111f5",
+  "lien": "https://open.spotify.com/track/2hAGhcEdiKZqWnC9UDleOJ",
+  "duree_ms": 205720
+ },
+ {
+  "date": "2026-10-25T17:51:57.878Z",
+  "titre": "Bad Romance",
+  "id": "0kv8hQMkkfBlJxHTBIUvhP",
+  "artistes": [
+   "Lady Gaga"
+  ],
+  "album": "Bad Romance",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020a49322a2b093601bce2f38e",
+  "lien": "https://open.spotify.com/track/0kv8hQMkkfBlJxHTBIUvhP",
+  "duree_ms": 294640
+ },
+ {
+  "date": "2026-10-25T18:43:07.616Z",
+  "titre": "Life in the Fast Lane - 2013 Remaster",
+  "id": "6gXrEUzibufX9xYPk3HD5p",
+  "artistes": [
+   "Eagles"
+  ],
+  "album": "Hotel California (2013 Remaster)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e024637341b9f507521afa9a778",
+  "lien": "https://open.spotify.com/track/6gXrEUzibufX9xYPk3HD5p",
+  "duree_ms": 286219
  }
 ]
