@@ -635,5 +635,30 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
   "lien": "https://open.spotify.com/track/5Ohxk2dO5COHF1krpoPigN",
   "duree_ms": 340706
+ },
+ {
+  "date": "2026-10-25T12:21:08.434Z",
+  "titre": "Sign of the Times",
+  "id": "5Ohxk2dO5COHF1krpoPigN",
+  "artistes": [
+   "Harry Styles"
+  ],
+  "album": "Harry Styles",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
+  "lien": "https://open.spotify.com/track/5Ohxk2dO5COHF1krpoPigN",
+  "duree_ms": 340706
+ },
+ {
+  "date": "2026-10-25T12:26:43.119Z",
+  "titre": "Strange Weather",
+  "id": "2CwHFaG0rLOGpYDm9ShLME",
+  "artistes": [
+   "Anna Calvi",
+   "David Byrne"
+  ],
+  "album": "One Breath (Deluxe Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e025b79a149e3c4e1b5261d7cad",
+  "lien": "https://open.spotify.com/track/2CwHFaG0rLOGpYDm9ShLME",
+  "duree_ms": 334173
  }
 ]
