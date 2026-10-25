@@ -1075,5 +1075,41 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
   "lien": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
   "duree_ms": 293440
+ },
+ {
+  "date": "2026-10-25T22:11:28.876Z",
+  "titre": "Ayonha",
+  "id": "7j3758mGOPLkd7UQsmbWYg",
+  "artistes": [
+   "Hamid Al Shaeri"
+  ],
+  "album": "The SLAM! Years: 1983 - 1988 (Habibi Funk 018)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02450799e337be82b0d5fd191a",
+  "lien": "https://open.spotify.com/track/7j3758mGOPLkd7UQsmbWYg",
+  "duree_ms": 219624
+ },
+ {
+  "date": "2026-10-25T22:19:06.007Z",
+  "titre": "AMBER",
+  "id": "5UPpgOKi0UQMMMSzWWgJJe",
+  "artistes": [
+   "Zola"
+  ],
+  "album": "AMBER",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0299d1f8c72f0799dff1ef8b7e",
+  "lien": "https://open.spotify.com/track/5UPpgOKi0UQMMMSzWWgJJe",
+  "duree_ms": 182067
+ },
+ {
+  "date": "2026-10-25T22:23:22.487Z",
+  "titre": "Tokyo Drift (Fast & Furious) - From \"The Fast And The Furious: Tokyo Drift\" Soundtrack",
+  "id": "0upFohXrGxIIAjyaJmCkMU",
+  "artistes": [
+   "Teriyaki Boyz"
+  ],
+  "album": "Tokyo Drift (Fast & Furious)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02aac3b3863e8f7a43a9b65a19",
+  "lien": "https://open.spotify.com/track/0upFohXrGxIIAjyaJmCkMU",
+  "duree_ms": 255946
  }
 ]
