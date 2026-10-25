@@ -708,5 +708,42 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e022f2eeee9b405f4d00428d84c",
   "lien": "https://open.spotify.com/track/1qPbGZqppFwLwcBC1JQ6Vr",
   "duree_ms": 258906
+ },
+ {
+  "date": "2026-10-25T16:32:51.828Z",
+  "titre": "A Horse with No Name",
+  "id": "54eZmuggBFJbV7k248bTTt",
+  "artistes": [
+   "America",
+   "George Martin"
+  ],
+  "album": "America",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
+  "lien": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt",
+  "duree_ms": 252239
+ },
+ {
+  "date": "2026-10-25T16:36:51.580Z",
+  "titre": "Angel from Montgomery - 2008 Remaster",
+  "id": "6JssQFiBCi6ZcE6060S9A7",
+  "artistes": [
+   "Bonnie Raitt"
+  ],
+  "album": "Streetlights",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02e7331ea592a18fd6518a8765",
+  "lien": "https://open.spotify.com/track/6JssQFiBCi6ZcE6060S9A7",
+  "duree_ms": 239240
+ },
+ {
+  "date": "2026-10-25T16:40:14.723Z",
+  "titre": "Futile Devices (Doveman Remix)",
+  "id": "5vTSnZTmS1gMiWuA9kDE19",
+  "artistes": [
+   "Sufjan Stevens"
+  ],
+  "album": "Call Me By Your Name (Original Motion Picture Soundtrack)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020db3901606954f424070ff01",
+  "lien": "https://open.spotify.com/track/5vTSnZTmS1gMiWuA9kDE19",
+  "duree_ms": 135443
  }
 ]
