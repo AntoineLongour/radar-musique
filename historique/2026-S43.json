@@ -965,5 +965,79 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e024637341b9f507521afa9a778",
   "lien": "https://open.spotify.com/track/6gXrEUzibufX9xYPk3HD5p",
   "duree_ms": 286219
+ },
+ {
+  "date": "2026-10-25T18:47:08.894Z",
+  "titre": "Freaking Out the Neighborhood",
+  "id": "17L0mSvHatVjgTgBxfmyjf",
+  "artistes": [
+   "Mac DeMarco"
+  ],
+  "album": "2",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ecfde7feaa212a1b60a197a1",
+  "lien": "https://open.spotify.com/track/17L0mSvHatVjgTgBxfmyjf",
+  "duree_ms": 173888
+ },
+ {
+  "date": "2026-10-25T18:52:43.594Z",
+  "titre": "Everything I Am",
+  "id": "0NrtwAmRAdLxua31SzHvXr",
+  "artistes": [
+   "Kanye West",
+   "DJ Premier"
+  ],
+  "album": "Graduation",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0226f7f19c7f0381e56156c94a",
+  "lien": "https://open.spotify.com/track/0NrtwAmRAdLxua31SzHvXr",
+  "duree_ms": 227893
+ },
+ {
+  "date": "2026-10-25T18:54:09.598Z",
+  "titre": "The Rainnnnnnn",
+  "id": "5LSinaZzSO3rv4ximdMSPF",
+  "artistes": [
+   "leydown"
+  ],
+  "album": "The Rainnnnnnn",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0228ee926c86ee41ed394904ef",
+  "lien": "https://open.spotify.com/track/5LSinaZzSO3rv4ximdMSPF",
+  "duree_ms": 85498
+ },
+ {
+  "date": "2026-10-25T19:00:44.023Z",
+  "titre": "Hummer",
+  "id": "2oT0kNNDv94u44BC2NB97z",
+  "artistes": [
+   "Steve Lacy"
+  ],
+  "album": "The Lo-Fis",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02c3545bbe806b845c2b52bc20",
+  "lien": "https://open.spotify.com/track/2oT0kNNDv94u44BC2NB97z",
+  "duree_ms": 71518
+ },
+ {
+  "date": "2026-10-25T19:06:11.958Z",
+  "titre": "Chou wasabi (feat. Micky Green)",
+  "id": "1mZbP5dp7CAU2qZI2I6OiV",
+  "artistes": [
+   "Julien Doré",
+   "Micky Green"
+  ],
+  "album": "LØVE",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020489bcd70ce98903179df96d",
+  "lien": "https://open.spotify.com/track/1mZbP5dp7CAU2qZI2I6OiV",
+  "duree_ms": 219720
+ },
+ {
+  "date": "2026-10-25T19:11:06.701Z",
+  "titre": "Mr. Rager",
+  "id": "393MDhe62s8hbH8ETrlxe5",
+  "artistes": [
+   "Kid Cudi"
+  ],
+  "album": "Man On The Moon II: The Legend Of Mr. Rager",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0259e842b6a3566a141f27f815",
+  "lien": "https://open.spotify.com/track/393MDhe62s8hbH8ETrlxe5",
+  "duree_ms": 294226
  }
 ]
