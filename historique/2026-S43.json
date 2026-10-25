@@ -660,5 +660,53 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e025b79a149e3c4e1b5261d7cad",
   "lien": "https://open.spotify.com/track/2CwHFaG0rLOGpYDm9ShLME",
   "duree_ms": 334173
+ },
+ {
+  "date": "2026-10-25T15:25:13.929Z",
+  "titre": "Chicago",
+  "id": "5BKKy9fIJL5uM9fz1SnqyP",
+  "artistes": [
+   "Michael Jackson"
+  ],
+  "album": "XSCAPE",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0235f36cb686b0d5a12ab3a9f0",
+  "lien": "https://open.spotify.com/track/5BKKy9fIJL5uM9fz1SnqyP",
+  "duree_ms": 245565
+ },
+ {
+  "date": "2026-10-25T15:35:06.171Z",
+  "titre": "Chicago",
+  "id": "5BKKy9fIJL5uM9fz1SnqyP",
+  "artistes": [
+   "Michael Jackson"
+  ],
+  "album": "XSCAPE",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0235f36cb686b0d5a12ab3a9f0",
+  "lien": "https://open.spotify.com/track/5BKKy9fIJL5uM9fz1SnqyP",
+  "duree_ms": 245565
+ },
+ {
+  "date": "2026-10-25T15:39:22.083Z",
+  "titre": "Nude",
+  "id": "35YyxFpE0ZTOoqFx5bADW8",
+  "artistes": [
+   "Radiohead"
+  ],
+  "album": "In Rainbows",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02de3c04b5fc750b68899b20a9",
+  "lien": "https://open.spotify.com/track/35YyxFpE0ZTOoqFx5bADW8",
+  "duree_ms": 255386
+ },
+ {
+  "date": "2026-10-25T15:43:41.484Z",
+  "titre": "Wonderwall",
+  "id": "1qPbGZqppFwLwcBC1JQ6Vr",
+  "artistes": [
+   "Oasis"
+  ],
+  "album": "(What's The Story) Morning Glory?",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e022f2eeee9b405f4d00428d84c",
+  "lien": "https://open.spotify.com/track/1qPbGZqppFwLwcBC1JQ6Vr",
+  "duree_ms": 258906
  }
 ]
