@@ -1,1 +1,24 @@
-{}
+{
+  "2026-S43": {
+    "titre": "Into the Wild",
+    "titre_original": "Into the Wild",
+    "annee": 2007,
+    "realisateur": "Sean Penn",
+    "pourquoi": "Ce film capture l’esprit errant et contemplatif de « A Horse with No Name » d’America, tout comme la douceur mélancolique de « Futile Devices » de Sufjan Stevens. Son atmosphère folk‑rock et ses paysages grandioses résonnent avec la variété éclectique de tes écoutes.",
+    "affiche": null,
+    "lien": null,
+    "definitif": true,
+    "choisi_le": "2026-10-26T22:27+01:00"
+  },
+  "2026-S44": {
+    "titre": "Seuls les Amants vivants",
+    "titre_original": "Only Lovers Left Alive",
+    "annee": 2013,
+    "realisateur": "Jim Jarmusch",
+    "pourquoi": "Tu ressentiras la même mélancolie feutrée que celle de The Marías. Les nuits électrisantes et les sonorités house de Kerri Chandler se reflètent dans l’atmosphère nocturne du film.",
+    "affiche": null,
+    "lien": null,
+    "definitif": false,
+    "choisi_le": "2026-10-26T22:27+01:00"
+  }
+}
