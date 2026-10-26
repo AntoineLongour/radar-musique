@@ -36,9 +36,6 @@ jobs:
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
 
-      - name: Relever la météo
-        run: python meteo.py
-
       - name: Choisir le film de la semaine
         run: python film.py
         env:
@@ -49,7 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add historique meteo films.json
+          git add historique films.json
           if git diff --cached --quiet; then
             echo "Rien de nouveau à enregistrer."
           else
@@ -57,3 +54,4 @@ jobs:
             git pull --rebase
             git push
           fi
+          
