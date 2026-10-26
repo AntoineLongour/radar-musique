@@ -73,5 +73,79 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e022576fd1726e32180600ab881",
   "lien": "https://open.spotify.com/track/6aq8IKoyR85RygCbAMi8h2",
   "duree_ms": 161323
+ },
+ {
+  "date": "2026-10-26T12:34:42.004Z",
+  "titre": "Real Love",
+  "id": "75aYWQdjwPoAD21zYDFo4r",
+  "artistes": [
+   "Retrowaves"
+  ],
+  "album": "Real Love",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e022fcfdaa7cddbb16efff57fb6",
+  "lien": "https://open.spotify.com/track/75aYWQdjwPoAD21zYDFo4r",
+  "duree_ms": 147187
+ },
+ {
+  "date": "2026-10-26T12:38:43.656Z",
+  "titre": "No One Noticed",
+  "id": "3siwsiaEoU4Kuuc9WKMUy5",
+  "artistes": [
+   "The Marías"
+  ],
+  "album": "Submarine",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
+  "lien": "https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5",
+  "duree_ms": 236906
+ },
+ {
+  "date": "2026-10-26T12:45:26.184Z",
+  "titre": "Lover, You Should've Come Over",
+  "id": "66bRNmcZWbUsCZLbjExJgb",
+  "artistes": [
+   "Jeff Buckley"
+  ],
+  "album": "So Real: Songs from Jeff Buckley (Expanded Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ca5921df99cfc07d51ff4739",
+  "lien": "https://open.spotify.com/track/66bRNmcZWbUsCZLbjExJgb",
+  "duree_ms": 402013
+ },
+ {
+  "date": "2026-10-26T12:53:07.071Z",
+  "titre": "La ritournelle",
+  "id": "0vytXvzWGGlIIJwvMPDm2Q",
+  "artistes": [
+   "Sébastien Tellier"
+  ],
+  "album": "Late Night Tales: The Cinematic Orchestra",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0227eb130d54694a7d31a1a2e0",
+  "lien": "https://open.spotify.com/track/0vytXvzWGGlIIJwvMPDm2Q",
+  "duree_ms": 460382
+ },
+ {
+  "date": "2026-10-26T12:58:44.781Z",
+  "titre": "M.E.",
+  "id": "0YBA7eO8kqEzUoC6zAEutF",
+  "artistes": [
+   "Gary Numan"
+  ],
+  "album": "The Pleasure Principle",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020b3bc5a3aa41c71b256e0e22",
+  "lien": "https://open.spotify.com/track/0YBA7eO8kqEzUoC6zAEutF",
+  "duree_ms": 337240
+ },
+ {
+  "date": "2026-10-26T12:59:49.082Z",
+  "titre": "i was never gonna be the one for you (snippet)",
+  "id": "2fB3Gu8lFj8tofGchBahR7",
+  "artistes": [
+   "andre is gone",
+   "tRAUMA",
+   "sad cats"
+  ],
+  "album": "corecore memories (snippet)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02d613feeb6701761f743f0257",
+  "lien": "https://open.spotify.com/track/2fB3Gu8lFj8tofGchBahR7",
+  "duree_ms": 63728
  }
 ]
