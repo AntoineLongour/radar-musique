@@ -225,6 +225,41 @@
     a.puce:hover { border-color: var(--texte); }
     .puce span { font: 500 12px var(--mono); color: var(--discret); white-space: nowrap; }
 
+    /* ---------- Film de la semaine ---------- */
+    .film {
+      display: grid;
+      grid-template-columns: 160px minmax(0, 1fr);
+      gap: 24px;
+      align-items: start;
+      background: var(--carte);
+      border-radius: 8px;
+      padding: 20px;
+    }
+    .affiche { width: 100%; aspect-ratio: 2 / 3; border-radius: 6px; object-fit: cover; background: var(--trait); display: block; }
+    .film-titre {
+      font-family: var(--titre);
+      font-weight: 900;
+      font-size: clamp(30px, 5vw, 44px);
+      line-height: 1;
+      text-transform: uppercase;
+      margin: 0 0 6px;
+      overflow-wrap: break-word;
+    }
+    .film-infos { color: var(--discret); margin: 0; }
+    .film-pourquoi { margin: 16px 0 0; font-size: 16px; max-width: 60ch; }
+    .film-lien { display: inline-block; margin-top: 16px; font-weight: 600; color: var(--accent); text-decoration: none; }
+    .film-lien:hover { text-decoration: underline; }
+
+    /* ---------- Musique et météo ---------- */
+    .meteo-titre { font-size: 20px; font-weight: 600; margin: 0 0 18px; }
+    .meteo-lignes { display: grid; gap: 16px; max-width: 680px; }
+    .meteo-ligne { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 2px 16px; align-items: center; }
+    .meteo-nom { font-weight: 600; }
+    .meteo-piste { display: flex; align-items: center; gap: 8px; min-width: 0; }
+    .meteo-barre { height: 16px; min-width: 2px; background: var(--accent); border-radius: 0 4px 4px 0; }
+    .meteo-valeur { font: 500 12px var(--mono); white-space: nowrap; }
+    .meteo-detail { grid-column: 2; font-size: 13px; color: var(--discret); overflow-wrap: anywhere; }
+
     /* ---------- Messages et pied de page ---------- */
     .message {
       background: var(--carte);
@@ -243,6 +278,10 @@
       .tuile { padding: 14px 12px; }
       .tuile:not(.vedette) .libelle { min-height: 3em; }   /* aligne les chiffres même si le libellé passe sur 2 lignes */
       .valeur { font-size: 24px; }
+      .film { grid-template-columns: 80px minmax(0, 1fr); gap: 14px; padding: 14px; }
+      .film-titre { font-size: clamp(20px, 6.4vw, 26px); }
+      .film-pourquoi { font-size: 15px; }
+      .meteo-ligne { grid-template-columns: 84px minmax(0, 1fr); gap: 2px 12px; }
     }
     @media (prefers-reduced-motion: reduce) {
       * { transition: none !important; }
@@ -277,8 +316,9 @@
     const JOURS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
     const JOURS_COURTS = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"];
 
-    let semaines = [];   // rempli quand wrapped.json est chargé, la plus récente en premier
-    let index = 0;       // la semaine affichée
+    let semaines = [];        // rempli quand wrapped.json est chargé, la plus récente en premier
+    let index = 0;            // la semaine affichée
+    let souvenirsLe = null;   // date à partir de laquelle « Il y a un an » aura des données
 
     // "2026-10-23" -> objet Date (en heure locale, pour éviter un décalage d'un jour)
     function versDate(texte) {
@@ -286,6 +326,7 @@
       return new Date(annee, mois - 1, jour);
     }
     const formatCourt = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "long" });
+    const formatLong = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "long", year: "numeric" });
     const nombre = n => n.toLocaleString("fr-FR");
 
     // Petit raccourci pour créer un élément HTML avec une classe et un texte
@@ -508,6 +549,127 @@
       return section;
     }
 
+    // ---------- Film de la semaine ----------
+    function sectionFilm(s) {
+      const section = creer("section");
+      section.append(creer("h2", null, "Film de la semaine"));
+      const f = s.film;
+      if (!f) {
+        section.append(
+          creer("p", "sous-titre", "Un film à la même ambiance que tes musiques, choisi par une IA"),
+          creer("div", "message", s.en_cours
+            ? "Le film sera choisi dès que tu auras écouté une quinzaine de morceaux cette semaine."
+            : "Pas de film pour cette semaine."));
+        return section;
+      }
+      section.append(creer("p", "sous-titre", f.definitif
+        ? "Un film à la même ambiance que tes musiques, choisi par une IA"
+        : "Choix provisoire : le film définitif sera choisi à la fin de la semaine"));
+
+      const carte = creer("div", "film");
+      if (f.affiche) {
+        const img = document.createElement("img");
+        img.className = "affiche";
+        img.src = f.affiche;
+        img.alt = `Affiche de ${f.titre}`;
+        img.loading = "lazy";
+        carte.append(img);
+      } else {
+        carte.append(creer("div", "affiche"));
+      }
+
+      const texte = creer("div");
+      const infos = [];
+      if (f.titre_original && f.titre_original !== f.titre) infos.push(f.titre_original);
+      if (f.annee) infos.push(String(f.annee));
+      if (f.realisateur) infos.push(`de ${f.realisateur}`);
+      texte.append(creer("h3", "film-titre", f.titre), creer("p", "film-infos", infos.join(" · ")));
+      if (f.pourquoi) texte.append(creer("p", "film-pourquoi", f.pourquoi));
+      if (f.lien) {
+        const lien = creer("a", "film-lien", "Voir la fiche du film →");
+        lien.href = f.lien;
+        lien.target = "_blank";
+        lien.rel = "noopener";
+        texte.append(lien);
+      }
+      carte.append(texte);
+      section.append(carte);
+      return section;
+    }
+
+    // ---------- Musique et météo ----------
+    function phrasePluie(m) {
+      if (m.heures_de_pluie === 0) return "Pas une goutte de pluie cette semaine.";
+      if (m.ratio_pluie === null) return "Trop peu d'heures de pluie pour comparer.";
+      if (m.ratio_pluie === 0) return "Tu n'as rien écouté pendant les heures de pluie.";
+      if (m.ratio_pluie >= 1.2) return `Quand il pleut, tu écoutes ${nombre(m.ratio_pluie)} fois plus de musique.`;
+      if (m.ratio_pluie <= 0.8) return `Quand il pleut, tu écoutes ${Math.round((1 - m.ratio_pluie) * 100)} % de musique en moins.`;
+      return "La pluie ne change pas grand-chose à tes écoutes.";
+    }
+
+    function sectionMeteo(s) {
+      const m = s.meteo;
+      if (!m) return document.createDocumentFragment();   // pas de relevé météo : on n'affiche pas la section
+      const section = creer("section");
+      section.append(creer("h2", null, "Musique et météo"));
+      section.append(
+        creer("p", "sous-titre", `Minutes écoutées par heure selon le temps à Paris, entre 8 h et minuit · `
+          + `${m.temperature_moyenne} °C en moyenne · ${m.jours_de_pluie} jour${m.jours_de_pluie > 1 ? "s" : ""} de pluie`),
+        creer("p", "meteo-titre", phrasePluie(m)));
+
+      const max = Math.max(...m.categories.map(c => c.minutes_par_heure));
+      const lignes = creer("div", "meteo-lignes");
+      m.categories.forEach(c => {
+        const ligneMeteo = creer("div", "meteo-ligne");
+        const piste = creer("div", "meteo-piste");
+        const barre = creer("div", "meteo-barre");
+        barre.style.width = max > 0 ? `${(c.minutes_par_heure / max) * 75}%` : "0";
+        piste.append(barre, creer("span", "meteo-valeur", `${nombre(c.minutes_par_heure)} min/h`));
+        let detail = `${nombre(c.heures)} h dans la semaine · ${nombre(c.minutes)} min écoutées`;
+        if (c.top_artiste) detail += ` · surtout ${c.top_artiste}`;
+        ligneMeteo.append(creer("div", "meteo-nom", c.nom), piste, creer("div", "meteo-detail", detail));
+        lignes.append(ligneMeteo);
+      });
+      section.append(lignes);
+      return section;
+    }
+
+    // ---------- Il y a un an ----------
+    function sectionSouvenir(s) {
+      const section = creer("section");
+      section.append(creer("h2", null, "Il y a un an"));
+      const a = s.il_y_a_un_an;
+      if (!a) {
+        section.append(creer("div", "message", souvenirsLe
+          ? `Cette rubrique s'activera le ${formatLong.format(versDate(souvenirsLe))}, quand ton historique aura un an.`
+          : "Cette rubrique s'activera quand ton historique aura un an."));
+        return section;
+      }
+      section.append(creer("p", "sous-titre",
+        `Semaine du ${formatCourt.format(versDate(a.du))} au ${formatLong.format(versDate(a.au))} · ${nombre(a.minutes)} min d'écoute`));
+
+      const colonnes = creer("div", "deux-colonnes");
+      const titres = creer("div");
+      const liste = creer("ol", "classement");
+      a.top_titres.forEach((t, i) => liste.append(ligne(
+        i + 1, vignette(t.pochette, `Pochette de ${t.titre}`), t.titre,
+        `${t.artistes} · ${nombre(t.ecoutes)} écoute${t.ecoutes > 1 ? "s" : ""}`, t.lien)));
+      titres.append(creer("p", "sous-titre", "Tes titres à l'époque"), liste);
+
+      const artistes = creer("div");
+      const puces = creer("div", "puces");
+      a.top_artistes.forEach(ar => {
+        const puce = creer("span", "puce", ar.nom);
+        puce.append(creer("span", null, ar.encore ? "encore écouté cette semaine" : "pas écouté cette semaine"));
+        puces.append(puce);
+      });
+      artistes.append(creer("p", "sous-titre", "Tes artistes à l'époque"), puces);
+
+      colonnes.append(titres, artistes);
+      section.append(colonnes);
+      return section;
+    }
+
     // ---------- Affichage d'une semaine ----------
     function afficher() {
       const s = semaines[index];
@@ -527,7 +689,8 @@
       note.hidden = !s.debut_collecte;
       note.textContent = "La collecte de tes écoutes a commencé pendant cette semaine : les chiffres sont incomplets.";
 
-      document.getElementById("contenu").replaceChildren(chiffresCles(s), classements(s), rythme(s), decouvertes(s));
+      document.getElementById("contenu").replaceChildren(
+        chiffresCles(s), classements(s), sectionFilm(s), rythme(s), sectionMeteo(s), decouvertes(s), sectionSouvenir(s));
     }
 
     document.getElementById("precedente").addEventListener("click", () => { index += 1; afficher(); });
@@ -541,9 +704,11 @@
       })
       .then(donnees => {
         semaines = donnees.semaines;
+        souvenirsLe = donnees.souvenirs_a_partir_du;
         const misAJour = new Date(donnees.genere_le);
         document.getElementById("pied").textContent =
-          `Mis à jour le ${misAJour.toLocaleDateString("fr-FR")} à ${misAJour.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })} · Données : Spotify`;
+          `Mis à jour le ${misAJour.toLocaleDateString("fr-FR")} à ${misAJour.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}`
+          + " · Écoutes : Spotify · Météo : Open-Meteo.com · Films : TMDB (ce site utilise l'API TMDB mais n'est ni approuvé ni certifié par TMDB)";
 
         if (semaines.length === 0) {
           document.getElementById("periode").textContent = "";

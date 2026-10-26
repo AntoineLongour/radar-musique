@@ -1,47 +1,202 @@
 {
-  "genere_le": "2026-10-24T18:25:29+02:00",
+  "genere_le": "2026-10-26T22:03:06+01:00",
+  "souvenirs_a_partir_du": "2027-10-25",
   "semaines": [
+    {
+      "semaine": "2026-S44",
+      "numero": 44,
+      "du": "2026-10-26",
+      "au": "2026-11-01",
+      "en_cours": true,
+      "debut_collecte": false,
+      "ecoutes": 17,
+      "minutes": 69,
+      "titres_differents": 16,
+      "artistes_differents": 26,
+      "evolution": null,
+      "top_artistes": [
+        {
+          "nom": "The Marías",
+          "ecoutes": 2,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
+          "mouvement": null
+        },
+        {
+          "nom": "THE-DREAM",
+          "ecoutes": 1,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e02c0272c5b4cba114ea0fb9e5c",
+          "mouvement": null
+        },
+        {
+          "nom": "Mazoo",
+          "ecoutes": 1,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e022a2535eb4914765493b6ac72",
+          "mouvement": null
+        },
+        {
+          "nom": "EJ Jones",
+          "ecoutes": 1,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e026c89730e13635c24c97444de",
+          "mouvement": null
+        },
+        {
+          "nom": "BigXthaPlug",
+          "ecoutes": 1,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e026c89730e13635c24c97444de",
+          "mouvement": null
+        }
+      ],
+      "top_titres": [
+        {
+          "titre": "No One Noticed",
+          "artistes": "The Marías",
+          "ecoutes": 2,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
+          "lien": "https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5"
+        },
+        {
+          "titre": "I Luv Your Girl",
+          "artistes": "THE-DREAM",
+          "ecoutes": 1,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e02c0272c5b4cba114ea0fb9e5c",
+          "lien": "https://open.spotify.com/track/3wkNK8tJZ2stygNJm8RCRD"
+        },
+        {
+          "titre": "Scream",
+          "artistes": "Mazoo",
+          "ecoutes": 1,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e022a2535eb4914765493b6ac72",
+          "lien": "https://open.spotify.com/track/6MI24kHCMm7fVZS9s1y1bY"
+        },
+        {
+          "titre": "Gas Station Love - remix",
+          "artistes": "EJ Jones, BigXthaPlug",
+          "ecoutes": 1,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e026c89730e13635c24c97444de",
+          "lien": "https://open.spotify.com/track/43uvpEvaYB3jxp6TqIwzON"
+        },
+        {
+          "titre": "You Are In My System",
+          "artistes": "Kerri Chandler, Dennis Quin, Troy Denari",
+          "ecoutes": 1,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e0230738c102c35492c08627ba0",
+          "lien": "https://open.spotify.com/track/3mFxa40cBrV52tHF9xJ740"
+        }
+      ],
+      "decouvertes": [
+        {
+          "nom": "THE-DREAM",
+          "ecoutes": 1
+        },
+        {
+          "nom": "Mazoo",
+          "ecoutes": 1
+        },
+        {
+          "nom": "EJ Jones",
+          "ecoutes": 1
+        },
+        {
+          "nom": "BigXthaPlug",
+          "ecoutes": 1
+        },
+        {
+          "nom": "Kerri Chandler",
+          "ecoutes": 1
+        },
+        {
+          "nom": "Dennis Quin",
+          "ecoutes": 1
+        },
+        {
+          "nom": "Troy Denari",
+          "ecoutes": 1
+        },
+        {
+          "nom": "Folie's",
+          "ecoutes": 1
+        }
+      ],
+      "minutes_par_jour": [
+        69,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ecoutes_par_heure": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "meteo": null,
+      "il_y_a_un_an": null,
+      "film": null
+    },
     {
       "semaine": "2026-S43",
       "numero": 43,
       "du": "2026-10-19",
       "au": "2026-10-25",
-      "en_cours": true,
+      "en_cours": false,
       "debut_collecte": true,
-      "ecoutes": 50,
-      "minutes": 188,
-      "titres_differents": 45,
-      "artistes_differents": 68,
+      "ecoutes": 90,
+      "minutes": 342,
+      "titres_differents": 78,
+      "artistes_differents": 103,
       "evolution": null,
       "top_artistes": [
         {
           "nom": "America",
-          "ecoutes": 3,
+          "ecoutes": 4,
           "pochette": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
           "mouvement": null
         },
         {
           "nom": "George Martin",
-          "ecoutes": 3,
+          "ecoutes": 4,
           "pochette": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
           "mouvement": null
         },
         {
+          "nom": "Drake",
+          "ecoutes": 3,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e024f0fd9dad63977146e685700",
+          "mouvement": null
+        },
+        {
           "nom": "Sufjan Stevens",
-          "ecoutes": 2,
+          "ecoutes": 3,
           "pochette": "https://i.scdn.co/image/ab67616d00001e020db3901606954f424070ff01",
           "mouvement": null
         },
         {
           "nom": "Junip",
-          "ecoutes": 2,
+          "ecoutes": 3,
           "pochette": "https://i.scdn.co/image/ab67616d00001e02dcbbb5385b4a41bdc01162b1",
-          "mouvement": null
-        },
-        {
-          "nom": "Genesis",
-          "ecoutes": 2,
-          "pochette": "https://i.scdn.co/image/ab67616d00001e02945c366eda66495226e4a46d",
           "mouvement": null
         }
       ],
@@ -49,37 +204,37 @@
         {
           "titre": "A Horse with No Name",
           "artistes": "America, George Martin",
-          "ecoutes": 3,
+          "ecoutes": 4,
           "pochette": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
           "lien": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt"
         },
         {
           "titre": "Futile Devices (Doveman Remix)",
           "artistes": "Sufjan Stevens",
-          "ecoutes": 2,
+          "ecoutes": 3,
           "pochette": "https://i.scdn.co/image/ab67616d00001e020db3901606954f424070ff01",
           "lien": "https://open.spotify.com/track/5vTSnZTmS1gMiWuA9kDE19"
         },
         {
           "titre": "Don't Let It Pass",
           "artistes": "Junip",
-          "ecoutes": 2,
+          "ecoutes": 3,
           "pochette": "https://i.scdn.co/image/ab67616d00001e02dcbbb5385b4a41bdc01162b1",
           "lien": "https://open.spotify.com/track/5crKkvR3otZ1D6VIvziTQR"
         },
         {
-          "titre": "That's All - 2007 Remaster",
-          "artistes": "Genesis",
+          "titre": "Passionfruit",
+          "artistes": "Drake",
           "ecoutes": 2,
-          "pochette": "https://i.scdn.co/image/ab67616d00001e02945c366eda66495226e4a46d",
-          "lien": "https://open.spotify.com/track/2zFdsAIk9r2Mi7Lmm1w3sM"
+          "pochette": "https://i.scdn.co/image/ab67616d00001e024f0fd9dad63977146e685700",
+          "lien": "https://open.spotify.com/track/5mCPDVBb16L4XQwDdbRUpz"
         },
         {
-          "titre": "Let Me Love You",
-          "artistes": "Mario",
-          "ecoutes": 1,
-          "pochette": "https://i.scdn.co/image/ab67616d00001e02c42212db6d665fab0c51d495",
-          "lien": "https://open.spotify.com/track/3ibKnFDaa3GhpPGlOUj7ff"
+          "titre": "Angel from Montgomery - 2008 Remaster",
+          "artistes": "Bonnie Raitt",
+          "ecoutes": 2,
+          "pochette": "https://i.scdn.co/image/ab67616d00001e02e7331ea592a18fd6518a8765",
+          "lien": "https://open.spotify.com/track/6JssQFiBCi6ZcE6060S9A7"
         }
       ],
       "decouvertes": null,
@@ -89,8 +244,8 @@
         0,
         0,
         0,
-        188,
-        0
+        194,
+        148
       ],
       "ecoutes_par_heure": [
         0,
@@ -106,18 +261,21 @@
         8,
         0,
         0,
+        2,
         0,
         0,
+        4,
+        11,
+        12,
+        5,
+        6,
         0,
         0,
-        3,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+        3
+      ],
+      "meteo": null,
+      "il_y_a_un_an": null,
+      "film": null
     }
   ]
 }
