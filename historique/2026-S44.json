@@ -147,5 +147,70 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02d613feeb6701761f743f0257",
   "lien": "https://open.spotify.com/track/2fB3Gu8lFj8tofGchBahR7",
   "duree_ms": 63728
+ },
+ {
+  "date": "2026-10-26T19:28:01.384Z",
+  "titre": "On My Line",
+  "id": "2o7uIR1RTaMWOANolL3cJn",
+  "artistes": [
+   "Lucane",
+   "Bee New",
+   "Yesterday",
+   "Mike Sherm"
+  ],
+  "album": "On My Line",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ca6463c3a99e780dfb6bca08",
+  "lien": "https://open.spotify.com/track/2o7uIR1RTaMWOANolL3cJn",
+  "duree_ms": 267024
+ },
+ {
+  "date": "2026-10-26T19:34:00.568Z",
+  "titre": "Luv (sic.) pt3",
+  "id": "09LMmJBZmxK9sVVDIjXbFA",
+  "artistes": [
+   "Nujabes",
+   "Shing02"
+  ],
+  "album": "Modal Soul",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02421d647a4f604d79943f4dad",
+  "lien": "https://open.spotify.com/track/09LMmJBZmxK9sVVDIjXbFA",
+  "duree_ms": 337880
+ },
+ {
+  "date": "2026-10-26T19:35:59.845Z",
+  "titre": "KB9",
+  "id": "5BxaK1eVdiXrnyVi7hQ6Xv",
+  "artistes": [
+   "Damzz"
+  ],
+  "album": "KB9",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02e7e96334e6b3a034f61d8da8",
+  "lien": "https://open.spotify.com/track/5BxaK1eVdiXrnyVi7hQ6Xv",
+  "duree_ms": 113142
+ },
+ {
+  "date": "2026-10-26T19:39:43.906Z",
+  "titre": "All Falls Down",
+  "id": "5SkRLpaGtvYPhw02vZhQQ9",
+  "artistes": [
+   "Kanye West",
+   "Syleena Johnson"
+  ],
+  "album": "The College Dropout",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0225b055377757b3cdd6f26b78",
+  "lien": "https://open.spotify.com/track/5SkRLpaGtvYPhw02vZhQQ9",
+  "duree_ms": 223506
+ },
+ {
+  "date": "2026-10-26T19:43:51.047Z",
+  "titre": "Ostavi trag",
+  "id": "65zw2RY8Qp0JJDcQNSejNY",
+  "artistes": [
+   "September"
+  ],
+  "album": "Zadnja avantura",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ad50e9d8e21f89e3a3f7621d",
+  "lien": "https://open.spotify.com/track/65zw2RY8Qp0JJDcQNSejNY",
+  "duree_ms": 246653
  }
 ]
