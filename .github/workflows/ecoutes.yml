@@ -36,11 +36,20 @@ jobs:
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
 
-      - name: Enregistrer les écoutes dans le repo
+      - name: Relever la météo
+        run: python meteo.py
+
+      - name: Choisir le film de la semaine
+        run: python film.py
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+
+      - name: Enregistrer dans le repo
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add historique
+          git add historique meteo films.json
           if git diff --cached --quiet; then
             echo "Rien de nouveau à enregistrer."
           else
@@ -48,4 +57,3 @@ jobs:
             git pull --rebase
             git push
           fi
-          
