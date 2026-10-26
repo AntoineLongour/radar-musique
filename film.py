@@ -124,6 +124,20 @@ def main():
     cle_api = os.environ.get("GROQ_API_KEY")
     jeton_tmdb = os.environ.get("TMDB_TOKEN")
 
+    # rattrapage : films déjà choisis mais sans affiche (TMDB indisponible ou mauvais jeton à ce moment-là)
+    if jeton_tmdb:
+        for cle, film in sorted(films.items()):
+            if film.get("lien"):
+                continue
+            try:
+                affiche, lien = chercher_sur_tmdb(jeton_tmdb, film)
+            except requests.RequestException as erreur:
+                print(f"{cle} : impossible de récupérer l'affiche de {film['titre']} ({erreur})")
+                break                         # TMDB ne répond pas : inutile d'insister pour les autres films
+            if lien:
+                film["affiche"], film["lien"] = affiche, lien
+                print(f"{cle} : affiche ajoutée pour {film['titre']}")
+
     if not cle_api:
         print("Pas de clé GROQ_API_KEY : pas de nouveau film cette fois.")
     else:
@@ -163,4 +177,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
