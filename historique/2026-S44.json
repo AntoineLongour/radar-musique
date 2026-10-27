@@ -429,5 +429,118 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e0267d8132be6d64ca19ade4d4f",
   "lien": "https://open.spotify.com/track/4nPeNi0XkuoYcuIshqcYVn",
   "duree_ms": 120000
+ },
+ {
+  "date": "2026-10-27T08:36:23.673Z",
+  "titre": "Benzi Box",
+  "id": "3lkNhO08drwsc3IQFuqKcE",
+  "artistes": [
+   "DANGERDOOM",
+   "MF DOOM",
+   "Danger Mouse",
+   "CeeLo Green"
+  ],
+  "album": "THE MOUSE AND THE MASK (METALFACE EDITION)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e023277cf16b24ce7cb3622df8d",
+  "lien": "https://open.spotify.com/track/3lkNhO08drwsc3IQFuqKcE",
+  "duree_ms": 180026
+ },
+ {
+  "date": "2026-10-27T17:02:37.997Z",
+  "titre": "Spike's Interlude",
+  "id": "5bSsk1TbkePYVyILber8WF",
+  "artistes": [
+   "MrBigB"
+  ],
+  "album": "Spike's Interlude",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02412a1bde815eaf8187553f08",
+  "lien": "https://open.spotify.com/track/5bSsk1TbkePYVyILber8WF",
+  "duree_ms": 137704
+ },
+ {
+  "date": "2026-10-27T17:07:33.180Z",
+  "titre": "Ouda",
+  "id": "3x9BHDNsyg50xSEzmLMyUd",
+  "artistes": [
+   "Hamid Al Shaeri"
+  ],
+  "album": "Kawahel",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b64db7fa90dde4565d5ff106",
+  "lien": "https://open.spotify.com/track/3x9BHDNsyg50xSEzmLMyUd",
+  "duree_ms": 278374
+ },
+ {
+  "date": "2026-10-27T17:09:01.915Z",
+  "titre": "Chaser",
+  "id": "72MfFeKxnBCeuwN62QnshP",
+  "artistes": [
+   "Piero Umiliani"
+  ],
+  "album": "Il corpo (Original Motion Picture Soundtrack)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02408cbf2831df2bf01c7c8b50",
+  "lien": "https://open.spotify.com/track/72MfFeKxnBCeuwN62QnshP",
+  "duree_ms": 88241
+ },
+ {
+  "date": "2026-10-27T17:12:29.428Z",
+  "titre": "Lady Brown",
+  "id": "11nuN9xWUoKJNohMtyCoJg",
+  "artistes": [
+   "Nujabes",
+   "Cise Starr"
+  ],
+  "album": "Metaphorical Music",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0210c73c3476e60630df210053",
+  "lien": "https://open.spotify.com/track/11nuN9xWUoKJNohMtyCoJg",
+  "duree_ms": 199160
+ },
+ {
+  "date": "2026-10-27T17:25:25.659Z",
+  "titre": "Break in the Action",
+  "id": "2SfE58UZe7Y3TVjozT1fPC",
+  "artistes": [
+   "CZARFACE",
+   "MF DOOM"
+  ],
+  "album": "Super What?",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02c81512cf4ad12711299b94ea",
+  "lien": "https://open.spotify.com/track/2SfE58UZe7Y3TVjozT1fPC",
+  "duree_ms": 149613
+ },
+ {
+  "date": "2026-10-27T17:28:59.491Z",
+  "titre": "king.",
+  "id": "7BnSItJuZ4tSoM8yt6SL77",
+  "artistes": [
+   "db."
+  ],
+  "album": "king. // 2003.",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02034b5a6c5f17d201e3b8e386",
+  "lien": "https://open.spotify.com/track/7BnSItJuZ4tSoM8yt6SL77",
+  "duree_ms": 213333
+ },
+ {
+  "date": "2026-10-27T17:48:13.128Z",
+  "titre": "Sign of the Times",
+  "id": "5Ohxk2dO5COHF1krpoPigN",
+  "artistes": [
+   "Harry Styles"
+  ],
+  "album": "Harry Styles",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
+  "lien": "https://open.spotify.com/track/5Ohxk2dO5COHF1krpoPigN",
+  "duree_ms": 340706
+ },
+ {
+  "date": "2026-10-27T17:51:04.308Z",
+  "titre": "The Percocet & Stripper Joint",
+  "id": "1yCVsVH2hQ72SxNI8QTDaB",
+  "artistes": [
+   "Future"
+  ],
+  "album": "DS2 (Deluxe)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b2592bea12d840fd096ef965",
+  "lien": "https://open.spotify.com/track/1yCVsVH2hQ72SxNI8QTDaB",
+  "duree_ms": 148453
  }
 ]
