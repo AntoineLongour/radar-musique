@@ -212,5 +212,80 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02ad50e9d8e21f89e3a3f7621d",
   "lien": "https://open.spotify.com/track/65zw2RY8Qp0JJDcQNSejNY",
   "duree_ms": 246653
+ },
+ {
+  "date": "2026-10-27T07:19:36.608Z",
+  "titre": "Hard Knock Life (Ghetto Anthem)",
+  "id": "3miH8l2bI4JeRHfkndv66i",
+  "artistes": [
+   "JAŸ-Z"
+  ],
+  "album": "Hard Knock Life (Ghetto Anthem)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e021bcc95b63748ad10020e1383",
+  "lien": "https://open.spotify.com/track/3miH8l2bI4JeRHfkndv66i",
+  "duree_ms": 238466
+ },
+ {
+  "date": "2026-10-27T07:35:49.927Z",
+  "titre": "Ouda",
+  "id": "3x9BHDNsyg50xSEzmLMyUd",
+  "artistes": [
+   "Hamid Al Shaeri"
+  ],
+  "album": "Kawahel",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b64db7fa90dde4565d5ff106",
+  "lien": "https://open.spotify.com/track/3x9BHDNsyg50xSEzmLMyUd",
+  "duree_ms": 278374
+ },
+ {
+  "date": "2026-10-27T07:40:52.742Z",
+  "titre": "Soul Of Freedom feat. Cise Starr",
+  "id": "3oQqC98i1EhNRcXqIMoWQD",
+  "artistes": [
+   "Uyama Hiroto",
+   "Cise Starr"
+  ],
+  "album": "freedom of the son",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b1bb0209c3f29678f62bf071",
+  "lien": "https://open.spotify.com/track/3oQqC98i1EhNRcXqIMoWQD",
+  "duree_ms": 302333
+ },
+ {
+  "date": "2026-10-27T07:45:42.265Z",
+  "titre": "Luv (sic)",
+  "id": "3q1qGC38DEGXtYtm6LFecd",
+  "artistes": [
+   "Nujabes",
+   "Shing02"
+  ],
+  "album": "Luv(sic) Hexalogy",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02f3f585353a1f0220babd8e89",
+  "lien": "https://open.spotify.com/track/3q1qGC38DEGXtYtm6LFecd",
+  "duree_ms": 289026
+ },
+ {
+  "date": "2026-10-27T07:50:40.804Z",
+  "titre": "Doomsday",
+  "id": "7EQvdUJqZ2i7SWvSB2VqGA",
+  "artistes": [
+   "MF DOOM",
+   "Pebbles The Invisible Girl"
+  ],
+  "album": "Operation: Doomsday (Complete)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e026ce90ec627a0198a8efd127f",
+  "lien": "https://open.spotify.com/track/7EQvdUJqZ2i7SWvSB2VqGA",
+  "duree_ms": 298053
+ },
+ {
+  "date": "2026-10-27T07:53:28.650Z",
+  "titre": "Crepuscolo sul mare",
+  "id": "3c07yD1n2fRvcD9wY638hg",
+  "artistes": [
+   "Piero Umiliani"
+  ],
+  "album": "La legge dei gangsters",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02d23f3cd05795137a95dc9db7",
+  "lien": "https://open.spotify.com/track/3c07yD1n2fRvcD9wY638hg",
+  "duree_ms": 167314
  }
 ]
