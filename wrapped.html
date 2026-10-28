@@ -37,6 +37,7 @@
     }
 
     * { box-sizing: border-box; }
+    [hidden] { display: none !important; }   /* un élément caché reste caché, même avec display: flex */
     body {
       margin: 0;
       background: var(--fond);
@@ -47,8 +48,8 @@
     }
     .page { max-width: 1080px; margin: 0 auto; padding: 28px 20px 64px; }
 
-    /* ---------- Onglets entre les deux pages ---------- */
-    .onglets { display: flex; gap: 22px; margin-bottom: 32px; }
+    /* ---------- Onglets entre les pages ---------- */
+    .onglets { display: flex; flex-wrap: wrap; gap: 22px; margin-bottom: 32px; }
     .onglets a {
       font: 500 12px var(--mono);
       letter-spacing: 0.08em;
@@ -80,6 +81,24 @@
     h1 span { color: var(--accent); }
     .resume { color: var(--discret); margin: 6px 0 0; }
     .navigation-semaines { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .navigation-semaines select {
+      font: 600 14px var(--corps);
+      color: var(--texte);
+      background: var(--carte);
+      border: 1.5px solid var(--trait);
+      border-radius: 999px;
+      padding: 6px 14px;
+      flex: 0 1 auto;
+      min-width: 0;
+      max-width: 100%;
+      cursor: pointer;
+    }
+    header { grid-template-columns: minmax(0, 1fr); }   /* le menu ne peut pas élargir la page */
+    @media (max-width: 720px) {
+      .navigation-semaines select { order: -1; flex-basis: 100%; }   /* sur téléphone : le menu sur sa propre ligne */
+    }
+    .navigation-semaines select:hover:not(:disabled) { border-color: var(--texte); }
+    .message a { color: var(--accent); font-weight: 600; }
     button {
       font: 600 14px var(--corps);
       color: var(--texte);
@@ -293,14 +312,16 @@
     <nav class="onglets" aria-label="Pages du site">
       <a href="index.html">Radar</a>
       <a href="wrapped.html" aria-current="page">Ma semaine</a>
+      <a href="connexion.html">Compte</a>
     </nav>
 
     <header>
       <div class="sur-titre">Ton wrapped de la semaine</div>
       <h1 id="titre">Ma semaine</h1>
       <p class="resume" id="periode">Chargement…</p>
-      <div class="navigation-semaines">
+      <div class="navigation-semaines" id="navigation" hidden>
         <button type="button" id="precedente" disabled>← Semaine précédente</button>
+        <select id="choix-semaine" aria-label="Choisir une semaine"></select>
         <button type="button" id="suivante" disabled>Semaine suivante →</button>
       </div>
     </header>
@@ -312,13 +333,19 @@
     <footer id="pied"></footer>
   </div>
 
+  <!-- La bibliothèque Supabase, puis nos réglages de connexion (compte.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.3/dist/umd/supabase.js"></script>
+  <script src="compte.js"></script>
   <script>
     const JOURS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
     const JOURS_COURTS = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"];
 
-    let semaines = [];        // rempli quand wrapped.json est chargé, la plus récente en premier
+    let joueur = null;        // { id, pseudo } du compte connecté
+    let semaines = [];        // la liste des semaines (sans le détail), la plus récente en premier
     let index = 0;            // la semaine affichée
     let souvenirsLe = null;   // date à partir de laquelle « Il y a un an » aura des données
+    const resumes = new Map();   // les résumés déjà chargés : '2026-S44' -> résumé
+    let demande = 0;             // numéro du dernier affichage demandé (pour ignorer une réponse arrivée trop tard)
 
     // "2026-10-23" -> objet Date (en heure locale, pour éviter un décalage d'un jour)
     function versDate(texte) {
@@ -531,7 +558,7 @@
         section.append(creer("div", "message", "Les découvertes apparaîtront dès que tu auras plus d'une semaine d'historique."));
         return section;
       }
-      section.append(creer("p", "sous-titre", "Artistes que tu n'avais jamais écoutés depuis le début de la collecte"));
+      section.append(creer("p", "sous-titre", "Artistes que tu n'avais jamais écoutés avant cette semaine"));
       if (s.decouvertes.length === 0) {
         section.append(creer("div", "message", "Aucun nouvel artiste cette semaine : tu es resté sur tes classiques."));
         return section;
@@ -670,62 +697,147 @@
       return section;
     }
 
+    // ---------- Semaines : numéros et menu ----------
+
+    // La semaine en cours à Paris, au format '2026-S44' (même calcul que Python : semaines ISO)
+    function semaineEnCours() {
+      const morceaux = Object.fromEntries(new Intl.DateTimeFormat("en-CA", {
+        timeZone: "Europe/Paris", year: "numeric", month: "2-digit", day: "2-digit",
+      }).formatToParts(new Date()).map(p => [p.type, p.value]));
+      const jeudi = new Date(Date.UTC(+morceaux.year, +morceaux.month - 1, +morceaux.day));
+      jeudi.setUTCDate(jeudi.getUTCDate() + 4 - (jeudi.getUTCDay() || 7));   // le jeudi de la même semaine
+      const annee = jeudi.getUTCFullYear();
+      const numero = Math.ceil(((jeudi - Date.UTC(annee, 0, 1)) / 86400000 + 1) / 7);
+      return `${annee}-S${String(numero).padStart(2, "0")}`;
+    }
+
+    const numeroDe = cle => Number(cle.split("-S")[1]);
+    const formatMenu = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "short" });   // « 26 oct. »
+
+    // Le menu déroulant : les semaines rangées par année
+    function remplirMenu() {
+      const menu = document.getElementById("choix-semaine");
+      const enCours = semaineEnCours();
+      const groupes = new Map();
+      for (const s of semaines) {
+        const annee = s.semaine.slice(0, 4);
+        if (!groupes.has(annee)) {
+          const groupe = document.createElement("optgroup");
+          groupe.label = annee;
+          groupes.set(annee, groupe);
+          menu.append(groupe);
+        }
+        const option = creer("option", null,
+          `Semaine ${numeroDe(s.semaine)} · ${formatMenu.format(versDate(s.du))} – ${formatMenu.format(versDate(s.au))}`
+          + (s.semaine === enCours ? " (en cours)" : ""));
+        option.value = s.semaine;
+        groupes.get(annee).append(option);
+      }
+    }
+
     // ---------- Affichage d'une semaine ----------
-    function afficher() {
-      const s = semaines[index];
+    function message(texte) {
+      document.getElementById("contenu").replaceChildren(creer("div", "message", texte));
+    }
 
-      const titre = document.getElementById("titre");
-      titre.replaceChildren("Semaine ", creer("span", null, String(s.numero)));
+    async function afficher() {
+      const choisie = semaines[index];
+      const numeroDemande = ++demande;
+      const enCours = choisie.semaine === semaineEnCours();
+
+      // en-tête et navigation (tout de suite, sans attendre le détail)
+      document.getElementById("titre").replaceChildren("Semaine ", creer("span", null, String(numeroDe(choisie.semaine))));
       document.getElementById("periode").textContent =
-        `Du ${formatCourt.format(versDate(s.du))} au ${formatCourt.format(versDate(s.au))}` + (s.en_cours ? " · semaine en cours" : "");
-
-      const precedente = document.getElementById("precedente");
+        `Du ${formatCourt.format(versDate(choisie.du))} au ${formatCourt.format(versDate(choisie.au))}` + (enCours ? " · semaine en cours" : "");
+      document.getElementById("choix-semaine").value = choisie.semaine;
+      document.getElementById("precedente").disabled = index >= semaines.length - 1;
       const suivante = document.getElementById("suivante");
-      precedente.disabled = index >= semaines.length - 1;
       suivante.disabled = index === 0;
-      suivante.textContent = index > 0 && semaines[index - 1].en_cours ? "Semaine en cours →" : "Semaine suivante →";
+      suivante.textContent = index > 0 && semaines[index - 1].semaine === semaineEnCours() ? "Semaine en cours →" : "Semaine suivante →";
+      history.replaceState(null, "", `#${choisie.semaine}`);   // l'adresse garde la semaine affichée
+
+      // le détail : déjà chargé, ou demandé à Supabase
+      let s = resumes.get(choisie.semaine);
+      if (!s) {
+        message("Chargement…");
+        const { data, error } = await supa.from("semaines").select("resume")
+          .eq("joueur", joueur.id).eq("semaine", choisie.semaine).single();
+        if (numeroDemande !== demande) return;   // une autre semaine a été choisie entre-temps
+        if (error) {
+          message(`Impossible de charger cette semaine : ${messageErreur(error)}`);
+          return;
+        }
+        s = data.resume;
+        resumes.set(choisie.semaine, s);
+      }
+      if (numeroDemande !== demande) return;
 
       const note = document.getElementById("note");
       note.hidden = !s.debut_collecte;
-      note.textContent = "La collecte de tes écoutes a commencé pendant cette semaine : les chiffres sont incomplets.";
+      note.textContent = "Ton historique commence pendant cette semaine : les chiffres sont incomplets.";
 
       document.getElementById("contenu").replaceChildren(
         chiffresCles(s), classements(s), sectionFilm(s), rythme(s), sectionMeteo(s), decouvertes(s), sectionSouvenir(s));
+
+      const misAJour = new Date(choisie.mis_a_jour);
+      document.getElementById("pied").textContent =
+        `Calculé le ${misAJour.toLocaleDateString("fr-FR")} à ${misAJour.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}`
+        + " · Écoutes : Spotify · Films : TMDB (ce site utilise l'API TMDB mais n'est ni approuvé ni certifié par TMDB)";
     }
 
-    document.getElementById("precedente").addEventListener("click", () => { index += 1; afficher(); });
-    document.getElementById("suivante").addEventListener("click", () => { index -= 1; afficher(); });
+    function allerA(nouvelIndex) {
+      index = nouvelIndex;
+      afficher();
+    }
+    document.getElementById("precedente").addEventListener("click", () => allerA(index + 1));
+    document.getElementById("suivante").addEventListener("click", () => allerA(index - 1));
+    document.getElementById("choix-semaine").addEventListener("change", evenement =>
+      allerA(semaines.findIndex(s => s.semaine === evenement.target.value)));
 
-    // ---------- Chargement de wrapped.json, généré par wrapped.py ----------
-    fetch("wrapped.json", { cache: "no-store" })
-      .then(reponse => {
-        if (!reponse.ok) throw new Error(`wrapped.json introuvable (erreur ${reponse.status})`);
-        return reponse.json();
-      })
-      .then(donnees => {
-        semaines = donnees.semaines;
-        souvenirsLe = donnees.souvenirs_a_partir_du;
-        const misAJour = new Date(donnees.genere_le);
-        document.getElementById("pied").textContent =
-          `Mis à jour le ${misAJour.toLocaleDateString("fr-FR")} à ${misAJour.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}`
-          + " · Écoutes : Spotify · Météo : Open-Meteo.com · Films : TMDB (ce site utilise l'API TMDB mais n'est ni approuvé ni certifié par TMDB)";
-
-        if (semaines.length === 0) {
-          document.getElementById("periode").textContent = "";
-          document.getElementById("contenu").replaceChildren(creer("div", "message",
-            "Pas encore d'écoutes enregistrées. La collecte tourne toutes les heures : reviens un peu plus tard."));
-          return;
-        }
-        // par défaut : la dernière semaine terminée, sinon la semaine en cours
-        const terminee = semaines.findIndex(s => !s.en_cours);
-        index = terminee === -1 ? 0 : terminee;
-        afficher();
-      })
-      .catch(erreur => {
+    // ---------- Chargement depuis Supabase ----------
+    async function demarrer() {
+      joueur = await joueurConnecte();
+      if (!joueur) {
         document.getElementById("periode").textContent = "";
-        document.getElementById("contenu").replaceChildren(
-          creer("div", "message", `Impossible de charger tes statistiques : ${erreur.message}`));
-      });
+        const texte = creer("div", "message", "Connecte-toi pour voir ta semaine. ");
+        const lien = creer("a", null, "Se connecter");
+        lien.href = "connexion.html";
+        texte.append(lien);
+        document.getElementById("contenu").replaceChildren(texte);
+        return;
+      }
+
+      // la liste des semaines (sans le détail, pour aller vite)
+      const { data, error } = await supa.from("semaines").select("semaine, du, au, mis_a_jour")
+        .eq("joueur", joueur.id).order("semaine", { ascending: false });
+      if (error) throw error;
+      semaines = data;
+
+      if (semaines.length === 0) {
+        document.getElementById("periode").textContent = "";
+        message("Pas encore de semaine calculée. Le calcul tourne toutes les heures : reviens un peu plus tard.");
+        return;
+      }
+
+      // « Il y a un an » commence un an après la toute première semaine
+      const premiere = versDate(semaines[semaines.length - 1].du);
+      premiere.setDate(premiere.getDate() + 364);
+      souvenirsLe = `${premiere.getFullYear()}-${String(premiere.getMonth() + 1).padStart(2, "0")}-${String(premiere.getDate()).padStart(2, "0")}`;
+
+      remplirMenu();
+      document.getElementById("navigation").hidden = false;
+
+      // par défaut : la semaine de l'adresse (#2025-S44), sinon la semaine en cours, sinon la plus récente
+      const demandee = decodeURIComponent(location.hash.slice(1));
+      let choix = semaines.findIndex(s => s.semaine === demandee);
+      if (choix === -1) choix = semaines.findIndex(s => s.semaine === semaineEnCours());
+      allerA(choix === -1 ? 0 : choix);
+    }
+
+    demarrer().catch(erreur => {
+      document.getElementById("periode").textContent = "";
+      message(`Impossible de charger tes statistiques : ${messageErreur(erreur)}`);
+    });
   </script>
 </body>
 </html>
