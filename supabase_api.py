@@ -57,6 +57,36 @@ def id_du_joueur(pseudo):
     return lignes[0]["id"]
 
 
+def lire_tout(table, params):
+    """
+    Lit toutes les lignes qui correspondent, par pages (Supabase en renvoie au plus 1 000 à la fois).
+    params : un dictionnaire, ou une liste de paires pour filtrer deux fois la même colonne.
+    """
+    params = list(params.items()) if isinstance(params, dict) else list(params)
+    lignes = []
+    while True:
+        page = appeler("GET", table, params=params + [("limit", 1000), ("offset", len(lignes))])
+        if not page:
+            return lignes
+        lignes += page
+
+
+def appeler_fonction(nom, arguments):
+    """Lance une fonction SQL de Supabase (créée dans le SQL Editor) et renvoie son résultat."""
+    return appeler("POST", f"rpc/{nom}", donnees=arguments)
+
+
+def enregistrer(table, lignes, colonnes_uniques, paquet=100):
+    """Ajoute les lignes, ou remplace celles qui existent déjà (même valeur dans colonnes_uniques)."""
+    for debut in range(0, len(lignes), paquet):
+        appeler(
+            "POST", table,
+            params={"on_conflict": colonnes_uniques},
+            donnees=lignes[debut:debut + paquet],
+            prefer="resolution=merge-duplicates,return=minimal",
+        )
+
+
 def ajouter_nouvelles(table, lignes, colonnes_uniques):
     """
     Ajoute les lignes, en ignorant celles qui existent déjà (même valeur dans colonnes_uniques).
@@ -73,4 +103,3 @@ def ajouter_nouvelles(table, lignes, colonnes_uniques):
         )
         ajoutees += len(reponse)   # Supabase ne renvoie que les lignes réellement ajoutées
     return ajoutees
-    
