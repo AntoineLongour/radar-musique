@@ -47,7 +47,7 @@ jobs:
       - name: Préparer le site
         run: |
           mkdir site
-          cp index.html releases.json wrapped.html wrapped.json site/
+          cp index.html releases.json wrapped.html wrapped.json connexion.html compte.js site/
 
       - name: Configurer GitHub Pages
         uses: actions/configure-pages@v5
