@@ -1807,5 +1807,55 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e028c7a8e68dc5c20bb72f713f2",
   "lien": "https://open.spotify.com/track/0B8drtTSp68pZdkmVrG9ZA",
   "duree_ms": 228173
+ },
+ {
+  "date": "2026-10-28T20:07:35.854Z",
+  "titre": "Nice For What",
+  "id": "3CA9pLiwRIGtUBiMjbZmRw",
+  "artistes": [
+   "Drake"
+  ],
+  "album": "Scorpion",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02f907de96b9a4fbc04accc0d5",
+  "lien": "https://open.spotify.com/track/3CA9pLiwRIGtUBiMjbZmRw",
+  "duree_ms": 210746
+ },
+ {
+  "date": "2026-10-28T20:10:56.538Z",
+  "titre": "Nice For What",
+  "id": "3CA9pLiwRIGtUBiMjbZmRw",
+  "artistes": [
+   "Drake"
+  ],
+  "album": "Scorpion",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02f907de96b9a4fbc04accc0d5",
+  "lien": "https://open.spotify.com/track/3CA9pLiwRIGtUBiMjbZmRw",
+  "duree_ms": 210746
+ },
+ {
+  "date": "2026-10-28T20:15:59.373Z",
+  "titre": "Soul Of Freedom feat. Cise Starr",
+  "id": "3oQqC98i1EhNRcXqIMoWQD",
+  "artistes": [
+   "Uyama Hiroto",
+   "Cise Starr"
+  ],
+  "album": "freedom of the son",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b1bb0209c3f29678f62bf071",
+  "lien": "https://open.spotify.com/track/3oQqC98i1EhNRcXqIMoWQD",
+  "duree_ms": 302333
+ },
+ {
+  "date": "2026-10-28T20:19:19.045Z",
+  "titre": "Lady Brown",
+  "id": "11nuN9xWUoKJNohMtyCoJg",
+  "artistes": [
+   "Nujabes",
+   "Cise Starr"
+  ],
+  "album": "Metaphorical Music",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0210c73c3476e60630df210053",
+  "lien": "https://open.spotify.com/track/11nuN9xWUoKJNohMtyCoJg",
+  "duree_ms": 199160
  }
 ]
