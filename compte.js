@@ -5,7 +5,7 @@
 // que ce que les règles d'accès de Supabase autorisent.
 // ⚠️ Ne mets JAMAIS la clé secrète (sb_secret_…) ici.
 // =====================================================================
-const SUPABASE_URL = "https://avptzjzildtgelzyhubz.supabase.co/rest/v1/";      // ← l'adresse de ton projet
+const SUPABASE_URL = "https://avptzjzildtgelzyhubz.supabase.co";      // ← l'adresse de ton projet
 const SUPABASE_CLE_PUBLIQUE = "sb_publishable_JI1hNvagrnHLQxmTwcuqKw_NidnxbVn";       // ← ta clé publique
 
 // Les comptes n'ont pas d'e-mail. Supabase en demande un, donc on le fabrique à partir du pseudo.
