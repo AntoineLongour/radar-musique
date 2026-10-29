@@ -2188,5 +2188,65 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02423e79bb88e572ba87cdd185",
   "lien": "https://open.spotify.com/track/0Z9UkcT1pnrmLciUJPcMMS",
   "duree_ms": 290720
+ },
+ {
+  "date": "2026-10-29T17:12:45.226Z",
+  "titre": "I'm Not In Love",
+  "id": "5HQEmiV2lKnSO6qa2fsR7x",
+  "artistes": [
+   "10cc"
+  ],
+  "album": "The Original Soundtrack",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02d3e47e52f8f218c9ba12b8eb",
+  "lien": "https://open.spotify.com/track/5HQEmiV2lKnSO6qa2fsR7x",
+  "duree_ms": 366640
+ },
+ {
+  "date": "2026-10-29T17:34:55.725Z",
+  "titre": "I'm Not In Love",
+  "id": "5HQEmiV2lKnSO6qa2fsR7x",
+  "artistes": [
+   "10cc"
+  ],
+  "album": "The Original Soundtrack",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02d3e47e52f8f218c9ba12b8eb",
+  "lien": "https://open.spotify.com/track/5HQEmiV2lKnSO6qa2fsR7x",
+  "duree_ms": 366640
+ },
+ {
+  "date": "2026-10-29T17:45:45.250Z",
+  "titre": "I'm Not In Love",
+  "id": "5HQEmiV2lKnSO6qa2fsR7x",
+  "artistes": [
+   "10cc"
+  ],
+  "album": "The Original Soundtrack",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02d3e47e52f8f218c9ba12b8eb",
+  "lien": "https://open.spotify.com/track/5HQEmiV2lKnSO6qa2fsR7x",
+  "duree_ms": 366640
+ },
+ {
+  "date": "2026-10-29T17:50:36.521Z",
+  "titre": "Gold - 2003 Remaster",
+  "id": "0Z9UkcT1pnrmLciUJPcMMS",
+  "artistes": [
+   "Spandau Ballet"
+  ],
+  "album": "True (Special Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02423e79bb88e572ba87cdd185",
+  "lien": "https://open.spotify.com/track/0Z9UkcT1pnrmLciUJPcMMS",
+  "duree_ms": 290720
+ },
+ {
+  "date": "2026-10-29T17:54:18.952Z",
+  "titre": "Mrs Magic (Strings Version)",
+  "id": "4iVj0UxqLlgrFWNdOnCwFS",
+  "artistes": [
+   "Strawberry Guy"
+  ],
+  "album": "F Song & Mrs Magic (Strings Versions)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02534aa32cffc253c433d99e7c",
+  "lien": "https://open.spotify.com/track/4iVj0UxqLlgrFWNdOnCwFS",
+  "duree_ms": 221929
  }
 ]
