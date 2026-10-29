@@ -1905,5 +1905,113 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02ad0e25c1c366d63bcbae4073",
   "lien": "https://open.spotify.com/track/2y42xAsl6dfMeVXQgOYsUw",
   "duree_ms": 289066
+ },
+ {
+  "date": "2026-10-29T07:10:35.505Z",
+  "titre": "Scar Tissue",
+  "id": "1G391cbiT3v3Cywg8T7DM1",
+  "artistes": [
+   "Red Hot Chili Peppers"
+  ],
+  "album": "Californication (Deluxe Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0294d08ab63e57b0cae74e8595",
+  "lien": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1",
+  "duree_ms": 215906
+ },
+ {
+  "date": "2026-10-29T07:14:33.039Z",
+  "titre": "Take Me Out",
+  "id": "20I8RduZC2PWMWTDCZuuAN",
+  "artistes": [
+   "Franz Ferdinand"
+  ],
+  "album": "Franz Ferdinand",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02a5d1c06a8172d4861367953c",
+  "lien": "https://open.spotify.com/track/20I8RduZC2PWMWTDCZuuAN",
+  "duree_ms": 237026
+ },
+ {
+  "date": "2026-10-29T07:20:36.803Z",
+  "titre": "New Person, Same Old Mistakes",
+  "id": "52ojopYMUzeNcudsoz7O9D",
+  "artistes": [
+   "Tame Impala"
+  ],
+  "album": "Currents",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029e1cfc756886ac782e363d79",
+  "lien": "https://open.spotify.com/track/52ojopYMUzeNcudsoz7O9D",
+  "duree_ms": 363240
+ },
+ {
+  "date": "2026-10-29T07:27:04.530Z",
+  "titre": "Paranoid Android",
+  "id": "6LgJvl0Xdtc73RJ1mmpotq",
+  "artistes": [
+   "Radiohead"
+  ],
+  "album": "OK Computer",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+  "lien": "https://open.spotify.com/track/6LgJvl0Xdtc73RJ1mmpotq",
+  "duree_ms": 387213
+ },
+ {
+  "date": "2026-10-29T07:34:06.257Z",
+  "titre": "Psycho Killer",
+  "id": "7dSCxR4LqkmxoBrq9MzVSD",
+  "artistes": [
+   "Talking Heads"
+  ],
+  "album": "Talking Heads '77",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b74dc29f68a36438421a9f1d",
+  "lien": "https://open.spotify.com/track/7dSCxR4LqkmxoBrq9MzVSD",
+  "duree_ms": 260506
+ },
+ {
+  "date": "2026-10-29T07:38:31.071Z",
+  "titre": "Under the Bridge",
+  "id": "3d9DChrdc6BOeFsbrZ3Is0",
+  "artistes": [
+   "Red Hot Chili Peppers"
+  ],
+  "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02153d79816d853f2694b2cc70",
+  "lien": "https://open.spotify.com/track/3d9DChrdc6BOeFsbrZ3Is0",
+  "duree_ms": 264306
+ },
+ {
+  "date": "2026-10-29T07:42:59.993Z",
+  "titre": "Losing My Religion",
+  "id": "31AOj9sFz2gM0O3hMARRBx",
+  "artistes": [
+   "R.E.M."
+  ],
+  "album": "Out Of Time (25th Anniversary Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02e2dd4e821bcc3f70dc0c8ffd",
+  "lien": "https://open.spotify.com/track/31AOj9sFz2gM0O3hMARRBx",
+  "duree_ms": 268426
+ },
+ {
+  "date": "2026-10-29T07:47:24.545Z",
+  "titre": "Karma Police",
+  "id": "63OQupATfueTdZMWTxW03A",
+  "artistes": [
+   "Radiohead"
+  ],
+  "album": "OK Computer",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+  "lien": "https://open.spotify.com/track/63OQupATfueTdZMWTxW03A",
+  "duree_ms": 264066
+ },
+ {
+  "date": "2026-10-29T07:52:35.422Z",
+  "titre": "High and Dry",
+  "id": "2a1iMaoWQ5MnvLFBDv4qkf",
+  "artistes": [
+   "Radiohead"
+  ],
+  "album": "The Bends",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
+  "lien": "https://open.spotify.com/track/2a1iMaoWQ5MnvLFBDv4qkf",
+  "duree_ms": 257480
  }
 ]
