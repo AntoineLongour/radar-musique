@@ -2152,5 +2152,41 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02e55bb01eb5d344c099d4168f",
   "lien": "https://open.spotify.com/track/0sy1l6aKRiSYbiDA96WkpL",
   "duree_ms": 188680
+ },
+ {
+  "date": "2026-10-29T16:44:57.631Z",
+  "titre": "I'm Not In Love",
+  "id": "5HQEmiV2lKnSO6qa2fsR7x",
+  "artistes": [
+   "10cc"
+  ],
+  "album": "The Original Soundtrack",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02d3e47e52f8f218c9ba12b8eb",
+  "lien": "https://open.spotify.com/track/5HQEmiV2lKnSO6qa2fsR7x",
+  "duree_ms": 366640
+ },
+ {
+  "date": "2026-10-29T16:53:36.005Z",
+  "titre": "I'm Not In Love",
+  "id": "5HQEmiV2lKnSO6qa2fsR7x",
+  "artistes": [
+   "10cc"
+  ],
+  "album": "The Original Soundtrack",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02d3e47e52f8f218c9ba12b8eb",
+  "lien": "https://open.spotify.com/track/5HQEmiV2lKnSO6qa2fsR7x",
+  "duree_ms": 366640
+ },
+ {
+  "date": "2026-10-29T16:59:03.125Z",
+  "titre": "Gold - 2003 Remaster",
+  "id": "0Z9UkcT1pnrmLciUJPcMMS",
+  "artistes": [
+   "Spandau Ballet"
+  ],
+  "album": "True (Special Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02423e79bb88e572ba87cdd185",
+  "lien": "https://open.spotify.com/track/0Z9UkcT1pnrmLciUJPcMMS",
+  "duree_ms": 290720
  }
 ]
