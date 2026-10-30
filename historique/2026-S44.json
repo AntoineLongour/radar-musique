@@ -2320,5 +2320,41 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
   "lien": "https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5",
   "duree_ms": 236906
+ },
+ {
+  "date": "2026-10-30T17:28:07.836Z",
+  "titre": "Lover, You Should've Come Over",
+  "id": "66bRNmcZWbUsCZLbjExJgb",
+  "artistes": [
+   "Jeff Buckley"
+  ],
+  "album": "So Real: Songs from Jeff Buckley (Expanded Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ca5921df99cfc07d51ff4739",
+  "lien": "https://open.spotify.com/track/66bRNmcZWbUsCZLbjExJgb",
+  "duree_ms": 402013
+ },
+ {
+  "date": "2026-10-30T17:32:08.310Z",
+  "titre": "No One Noticed",
+  "id": "3siwsiaEoU4Kuuc9WKMUy5",
+  "artistes": [
+   "The Marías"
+  ],
+  "album": "Submarine",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
+  "lien": "https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5",
+  "duree_ms": 236906
+ },
+ {
+  "date": "2026-10-30T17:38:15.469Z",
+  "titre": "I'm Not In Love",
+  "id": "5HQEmiV2lKnSO6qa2fsR7x",
+  "artistes": [
+   "10cc"
+  ],
+  "album": "The Original Soundtrack",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02d3e47e52f8f218c9ba12b8eb",
+  "lien": "https://open.spotify.com/track/5HQEmiV2lKnSO6qa2fsR7x",
+  "duree_ms": 366640
  }
 ]
