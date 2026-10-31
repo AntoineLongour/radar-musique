@@ -2722,5 +2722,29 @@
   "pochette": "https://i.scdn.co/image/ab6742d3000052b77cf81fb66c853635de2dca14",
   "lien": "https://open.spotify.com/track/1riXSMgyYAiIyfqGsPX0hm",
   "duree_ms": 122965
+ },
+ {
+  "date": "2026-10-31T17:51:31.177Z",
+  "titre": "Lover, You Should've Come Over",
+  "id": "66bRNmcZWbUsCZLbjExJgb",
+  "artistes": [
+   "Jeff Buckley"
+  ],
+  "album": "So Real: Songs from Jeff Buckley (Expanded Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ca5921df99cfc07d51ff4739",
+  "lien": "https://open.spotify.com/track/66bRNmcZWbUsCZLbjExJgb",
+  "duree_ms": 402013
+ },
+ {
+  "date": "2026-10-31T17:56:27.057Z",
+  "titre": "Life in the Fast Lane - 2013 Remaster",
+  "id": "6gXrEUzibufX9xYPk3HD5p",
+  "artistes": [
+   "Eagles"
+  ],
+  "album": "Hotel California (2013 Remaster)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e024637341b9f507521afa9a778",
+  "lien": "https://open.spotify.com/track/6gXrEUzibufX9xYPk3HD5p",
+  "duree_ms": 286219
  }
 ]
