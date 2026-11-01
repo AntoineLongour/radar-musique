@@ -2746,5 +2746,17 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e024637341b9f507521afa9a778",
   "lien": "https://open.spotify.com/track/6gXrEUzibufX9xYPk3HD5p",
   "duree_ms": 286219
+ },
+ {
+  "date": "2026-11-01T07:51:34.321Z",
+  "titre": "Can't Stop",
+  "id": "3ZOEytgrvLwQaqXreDs2Jx",
+  "artistes": [
+   "Red Hot Chili Peppers"
+  ],
+  "album": "By the Way (Deluxe Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02de1af2785a83cc660155a0c4",
+  "lien": "https://open.spotify.com/track/3ZOEytgrvLwQaqXreDs2Jx",
+  "duree_ms": 269000
  }
 ]
