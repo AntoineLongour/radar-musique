@@ -192,5 +192,46 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e020db3901606954f424070ff01",
   "lien": "https://open.spotify.com/track/5vTSnZTmS1gMiWuA9kDE19",
   "duree_ms": 135443
+ },
+ {
+  "date": "2026-11-02T20:08:32.700Z",
+  "titre": "I'm Not In Love",
+  "id": "5HQEmiV2lKnSO6qa2fsR7x",
+  "artistes": [
+   "10cc"
+  ],
+  "album": "The Original Soundtrack",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02d3e47e52f8f218c9ba12b8eb",
+  "lien": "https://open.spotify.com/track/5HQEmiV2lKnSO6qa2fsR7x",
+  "duree_ms": 366640
+ },
+ {
+  "date": "2026-11-02T20:21:15.665Z",
+  "titre": "i was never gonna be the one for you (snippet)",
+  "id": "2fB3Gu8lFj8tofGchBahR7",
+  "artistes": [
+   "andre is gone",
+   "tRAUMA",
+   "sad cats"
+  ],
+  "album": "corecore memories (snippet)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02d613feeb6701761f743f0257",
+  "lien": "https://open.spotify.com/track/2fB3Gu8lFj8tofGchBahR7",
+  "duree_ms": 63728
+ },
+ {
+  "date": "2026-11-02T20:25:43.208Z",
+  "titre": "On My Line",
+  "id": "2o7uIR1RTaMWOANolL3cJn",
+  "artistes": [
+   "Lucane",
+   "Bee New",
+   "Yesterday",
+   "Mike Sherm"
+  ],
+  "album": "On My Line",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ca6463c3a99e780dfb6bca08",
+  "lien": "https://open.spotify.com/track/2o7uIR1RTaMWOANolL3cJn",
+  "duree_ms": 267024
  }
 ]
