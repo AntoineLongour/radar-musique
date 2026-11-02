@@ -94,5 +94,41 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02813629baee66b2ec5f90ebee",
   "lien": "https://open.spotify.com/track/4WCDSDVpgcxtjT9iT8TMGt",
   "duree_ms": 434866
+ },
+ {
+  "date": "2026-11-02T12:04:50.945Z",
+  "titre": "Viva La Vida",
+  "id": "1mea3bSkSGXuIRvnydlB5b",
+  "artistes": [
+   "Coldplay"
+  ],
+  "album": "Viva La Vida or Death and All His Friends",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02e21cc1db05580b6f2d2a3b6e",
+  "lien": "https://open.spotify.com/track/1mea3bSkSGXuIRvnydlB5b",
+  "duree_ms": 242373
+ },
+ {
+  "date": "2026-11-02T12:09:51.561Z",
+  "titre": "Careless Whisper",
+  "id": "5WDLRQ3VCdVrKw0njWe5E5",
+  "artistes": [
+   "George Michael"
+  ],
+  "album": "Ladies & Gentlemen",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02813629baee66b2ec5f90ebee",
+  "lien": "https://open.spotify.com/track/5WDLRQ3VCdVrKw0njWe5E5",
+  "duree_ms": 300106
+ },
+ {
+  "date": "2026-11-02T12:17:06.609Z",
+  "titre": "Let It Go",
+  "id": "1aqM9zbWTRFmq2moQg0i5V",
+  "artistes": [
+   "Peter Broderick"
+  ],
+  "album": "Blackberry",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02afebe408f5db8f1eb03a707a",
+  "lien": "https://open.spotify.com/track/1aqM9zbWTRFmq2moQg0i5V",
+  "duree_ms": 434538
  }
 ]
