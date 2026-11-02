@@ -167,5 +167,30 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e025b79a149e3c4e1b5261d7cad",
   "lien": "https://open.spotify.com/track/2CwHFaG0rLOGpYDm9ShLME",
   "duree_ms": 334173
+ },
+ {
+  "date": "2026-11-02T19:11:12.404Z",
+  "titre": "A Horse with No Name",
+  "id": "54eZmuggBFJbV7k248bTTt",
+  "artistes": [
+   "America",
+   "George Martin"
+  ],
+  "album": "America",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
+  "lien": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt",
+  "duree_ms": 252239
+ },
+ {
+  "date": "2026-11-02T19:58:35.237Z",
+  "titre": "Futile Devices (Doveman Remix)",
+  "id": "5vTSnZTmS1gMiWuA9kDE19",
+  "artistes": [
+   "Sufjan Stevens"
+  ],
+  "album": "Call Me By Your Name (Original Motion Picture Soundtrack)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020db3901606954f424070ff01",
+  "lien": "https://open.spotify.com/track/5vTSnZTmS1gMiWuA9kDE19",
+  "duree_ms": 135443
  }
 ]

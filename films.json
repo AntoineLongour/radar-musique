@@ -20,5 +20,16 @@
     "lien": "https://www.themoviedb.org/movie/370755",
     "definitif": true,
     "choisi_le": "2026-11-02T00:44+01:00"
+  },
+  "2026-S45": {
+    "titre": "Eternal Sunshine of the Spotless Mind",
+    "titre_original": "Eternal Sunshine of the Spotless Mind",
+    "annee": 2004,
+    "realisateur": "Michel Gondry",
+    "pourquoi": "Ce film mêle mélancolie et rêverie comme ton écoute de Jeff Buckley et George Michael, capturant une émotion douce‑amère qui résonne avec « Lover, You Should've Come Over » et « Careless Whisper ». Tu te laisseras porter par son esthétique à la fois intime et onirique.",
+    "affiche": "https://image.tmdb.org/t/p/w342/qCjJlDn3Pn6V4hwdsayM1plPcy1.jpg",
+    "lien": "https://www.themoviedb.org/movie/38",
+    "definitif": false,
+    "choisi_le": "2026-11-02T20:59+01:00"
   }
 }
