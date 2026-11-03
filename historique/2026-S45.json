@@ -260,5 +260,42 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02813629baee66b2ec5f90ebee",
   "lien": "https://open.spotify.com/track/4WCDSDVpgcxtjT9iT8TMGt",
   "duree_ms": 434866
+ },
+ {
+  "date": "2026-11-03T08:09:54.706Z",
+  "titre": "Sign of the Times",
+  "id": "5Ohxk2dO5COHF1krpoPigN",
+  "artistes": [
+   "Harry Styles"
+  ],
+  "album": "Harry Styles",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
+  "lien": "https://open.spotify.com/track/5Ohxk2dO5COHF1krpoPigN",
+  "duree_ms": 340706
+ },
+ {
+  "date": "2026-11-03T08:17:09.732Z",
+  "titre": "Let It Go",
+  "id": "1aqM9zbWTRFmq2moQg0i5V",
+  "artistes": [
+   "Peter Broderick"
+  ],
+  "album": "Blackberry",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02afebe408f5db8f1eb03a707a",
+  "lien": "https://open.spotify.com/track/1aqM9zbWTRFmq2moQg0i5V",
+  "duree_ms": 434538
+ },
+ {
+  "date": "2026-11-03T08:21:22.534Z",
+  "titre": "A Horse with No Name",
+  "id": "54eZmuggBFJbV7k248bTTt",
+  "artistes": [
+   "America",
+   "George Martin"
+  ],
+  "album": "America",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
+  "lien": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt",
+  "duree_ms": 252239
  }
 ]
