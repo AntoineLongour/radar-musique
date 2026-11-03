@@ -513,5 +513,65 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02d1a0ab1a2ac96862fbc4490d",
   "lien": "https://open.spotify.com/track/2iZAAO5JEjMvClQ2W7VmSM",
   "duree_ms": 172500
+ },
+ {
+  "date": "2026-11-03T11:05:52.437Z",
+  "titre": "White Noise Waves",
+  "id": "3aWEzWRjMqRHfKxGhRLrPb",
+  "artistes": [
+   "The BD Noise Maker"
+  ],
+  "album": "White Noise Waves",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02989a6fb5e10bace3e2892081",
+  "lien": "https://open.spotify.com/track/3aWEzWRjMqRHfKxGhRLrPb",
+  "duree_ms": 173994
+ },
+ {
+  "date": "2026-11-03T11:09:18.742Z",
+  "titre": "Quantum White",
+  "id": "5DqjEVkM7PA3bMaEhkrUdb",
+  "artistes": [
+   "Aileron"
+  ],
+  "album": "Sonorous Dream",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02bcac6b0b9a947446a4738848",
+  "lien": "https://open.spotify.com/track/5DqjEVkM7PA3bMaEhkrUdb",
+  "duree_ms": 179000
+ },
+ {
+  "date": "2026-11-03T11:49:49.852Z",
+  "titre": "Soothing White Clouds",
+  "id": "7JIM8EOOvQuc7OOjWAUxXi",
+  "artistes": [
+   "Eastore"
+  ],
+  "album": "Soothing White Clouds",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02711d0ab3999731b0adf28c7a",
+  "lien": "https://open.spotify.com/track/7JIM8EOOvQuc7OOjWAUxXi",
+  "duree_ms": 285405
+ },
+ {
+  "date": "2026-11-03T11:52:44.706Z",
+  "titre": "Light White Noise",
+  "id": "3qBMFORCRUKzBPiftvwaJn",
+  "artistes": [
+   "Evomin"
+  ],
+  "album": "White Noise Comfort",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02508a6f80eecf7065d781394b",
+  "lien": "https://open.spotify.com/track/3qBMFORCRUKzBPiftvwaJn",
+  "duree_ms": 154800
+ },
+ {
+  "date": "2026-11-03T11:56:39.814Z",
+  "titre": "Whispering White Noise Wind",
+  "id": "3F8T15ypoilwLqEyv928pH",
+  "artistes": [
+   "Eijra"
+  ],
+  "album": "Whispering White Noise Wind",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020fe8b10ca2b033d5213e7704",
+  "lien": "https://open.spotify.com/track/3F8T15ypoilwLqEyv928pH",
+  "duree_ms": 246928
  }
 ]
