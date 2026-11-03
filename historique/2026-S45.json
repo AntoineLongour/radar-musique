@@ -233,5 +233,32 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02ca6463c3a99e780dfb6bca08",
   "lien": "https://open.spotify.com/track/2o7uIR1RTaMWOANolL3cJn",
   "duree_ms": 267024
+ },
+ {
+  "date": "2026-11-03T06:48:28.001Z",
+  "titre": "Move That Dope (feat. Pharrell, Pusha T & Casino)",
+  "id": "63UqmKUcnJxEWewv3kKeOp",
+  "artistes": [
+   "Future",
+   "Pharrell Williams",
+   "Pusha T",
+   "Casino"
+  ],
+  "album": "Move That Dope (feat. Pharrell, Pusha T & Casino)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e021e522dc896562906ae2957b7",
+  "lien": "https://open.spotify.com/track/63UqmKUcnJxEWewv3kKeOp",
+  "duree_ms": 342773
+ },
+ {
+  "date": "2026-11-03T06:56:19.023Z",
+  "titre": "Cowboys and Angels - 2010 Remastered Version",
+  "id": "4WCDSDVpgcxtjT9iT8TMGt",
+  "artistes": [
+   "George Michael"
+  ],
+  "album": "Ladies & Gentlemen",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02813629baee66b2ec5f90ebee",
+  "lien": "https://open.spotify.com/track/4WCDSDVpgcxtjT9iT8TMGt",
+  "duree_ms": 434866
  }
 ]
