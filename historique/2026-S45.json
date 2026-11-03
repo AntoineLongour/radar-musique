@@ -297,5 +297,65 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
   "lien": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt",
   "duree_ms": 252239
+ },
+ {
+  "date": "2026-11-03T09:19:39.296Z",
+  "titre": "Futile Devices (Doveman Remix)",
+  "id": "5vTSnZTmS1gMiWuA9kDE19",
+  "artistes": [
+   "Sufjan Stevens"
+  ],
+  "album": "Call Me By Your Name (Original Motion Picture Soundtrack)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020db3901606954f424070ff01",
+  "lien": "https://open.spotify.com/track/5vTSnZTmS1gMiWuA9kDE19",
+  "duree_ms": 135443
+ },
+ {
+  "date": "2026-11-03T09:27:06.747Z",
+  "titre": "Cowboys and Angels - 2010 Remastered Version",
+  "id": "4WCDSDVpgcxtjT9iT8TMGt",
+  "artistes": [
+   "George Michael"
+  ],
+  "album": "Ladies & Gentlemen",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02813629baee66b2ec5f90ebee",
+  "lien": "https://open.spotify.com/track/4WCDSDVpgcxtjT9iT8TMGt",
+  "duree_ms": 434866
+ },
+ {
+  "date": "2026-11-03T09:31:04.319Z",
+  "titre": "No One Noticed",
+  "id": "3siwsiaEoU4Kuuc9WKMUy5",
+  "artistes": [
+   "The Marías"
+  ],
+  "album": "Submarine",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
+  "lien": "https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5",
+  "duree_ms": 236906
+ },
+ {
+  "date": "2026-11-03T09:37:46.843Z",
+  "titre": "Lover, You Should've Come Over",
+  "id": "66bRNmcZWbUsCZLbjExJgb",
+  "artistes": [
+   "Jeff Buckley"
+  ],
+  "album": "So Real: Songs from Jeff Buckley (Expanded Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ca5921df99cfc07d51ff4739",
+  "lien": "https://open.spotify.com/track/66bRNmcZWbUsCZLbjExJgb",
+  "duree_ms": 402013
+ },
+ {
+  "date": "2026-11-03T09:45:27.788Z",
+  "titre": "La ritournelle",
+  "id": "0vytXvzWGGlIIJwvMPDm2Q",
+  "artistes": [
+   "Sébastien Tellier"
+  ],
+  "album": "Late Night Tales: The Cinematic Orchestra",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0227eb130d54694a7d31a1a2e0",
+  "lien": "https://open.spotify.com/track/0vytXvzWGGlIIJwvMPDm2Q",
+  "duree_ms": 460382
  }
 ]
