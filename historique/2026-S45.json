@@ -1077,5 +1077,42 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e023fc1588803d1887f11d660cc",
   "lien": "https://open.spotify.com/track/5GbVzc6Ex5LYlLJqzRQhuy",
   "duree_ms": 248960
+ },
+ {
+  "date": "2026-11-04T19:34:44.279Z",
+  "titre": "Love Me Not",
+  "id": "4WFgvKVfEhb3IUAFGrutTR",
+  "artistes": [
+   "Ravyn Lenae"
+  ],
+  "album": "Bird's Eye",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020e62daaea2c7b94053e1c142",
+  "lien": "https://open.spotify.com/track/4WFgvKVfEhb3IUAFGrutTR",
+  "duree_ms": 213466
+ },
+ {
+  "date": "2026-11-04T19:42:36.613Z",
+  "titre": "Mystery of Love",
+  "id": "5GbVzc6Ex5LYlLJqzRQhuy",
+  "artistes": [
+   "Sufjan Stevens"
+  ],
+  "album": "Mystery of Love",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e023fc1588803d1887f11d660cc",
+  "lien": "https://open.spotify.com/track/5GbVzc6Ex5LYlLJqzRQhuy",
+  "duree_ms": 248960
+ },
+ {
+  "date": "2026-11-04T19:47:28.252Z",
+  "titre": "I Follow Rivers - The Magician Remix",
+  "id": "6UAgnw2w3AVwLg1p7sE7v4",
+  "artistes": [
+   "Lykke Li",
+   "The Magician"
+  ],
+  "album": "Wounded Rhymes",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0290881d082c9df7081dc7f485",
+  "lien": "https://open.spotify.com/track/6UAgnw2w3AVwLg1p7sE7v4",
+  "duree_ms": 279635
  }
 ]
