@@ -873,5 +873,77 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02813629baee66b2ec5f90ebee",
   "lien": "https://open.spotify.com/track/4WCDSDVpgcxtjT9iT8TMGt",
   "duree_ms": 434866
+ },
+ {
+  "date": "2026-11-04T01:51:08.406Z",
+  "titre": "Cowboys and Angels - 2010 Remastered Version",
+  "id": "4WCDSDVpgcxtjT9iT8TMGt",
+  "artistes": [
+   "George Michael"
+  ],
+  "album": "Ladies & Gentlemen",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02813629baee66b2ec5f90ebee",
+  "lien": "https://open.spotify.com/track/4WCDSDVpgcxtjT9iT8TMGt",
+  "duree_ms": 434866
+ },
+ {
+  "date": "2026-11-04T01:55:05.890Z",
+  "titre": "No One Noticed",
+  "id": "3siwsiaEoU4Kuuc9WKMUy5",
+  "artistes": [
+   "The Marías"
+  ],
+  "album": "Submarine",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
+  "lien": "https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5",
+  "duree_ms": 236906
+ },
+ {
+  "date": "2026-11-04T02:06:07.856Z",
+  "titre": "Sign of the Times",
+  "id": "5Ohxk2dO5COHF1krpoPigN",
+  "artistes": [
+   "Harry Styles"
+  ],
+  "album": "Harry Styles",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
+  "lien": "https://open.spotify.com/track/5Ohxk2dO5COHF1krpoPigN",
+  "duree_ms": 340706
+ },
+ {
+  "date": "2026-11-04T02:10:17.242Z",
+  "titre": "Coming Up Roses",
+  "id": "0QPdjsMOUhwouq1NS3HwfQ",
+  "artistes": [
+   "Harry Styles"
+  ],
+  "album": "Kiss All The Time. Disco, Occasionally.",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+  "lien": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
+  "duree_ms": 248866
+ },
+ {
+  "date": "2026-11-04T02:14:14.892Z",
+  "titre": "Somewhere Only We Know",
+  "id": "1SKPmfSYaPsETbRHaiA18G",
+  "artistes": [
+   "Keane"
+  ],
+  "album": "Hopes And Fears",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e027d6cd95a046a3c0dacbc7d33",
+  "lien": "https://open.spotify.com/track/1SKPmfSYaPsETbRHaiA18G",
+  "duree_ms": 237146
+ },
+ {
+  "date": "2026-11-04T02:20:34.333Z",
+  "titre": "Stolen Dance",
+  "id": "34xGLuxM0rkxhCVyMSqwJO",
+  "artistes": [
+   "Milky Chance"
+  ],
+  "album": "Sadnecessary",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e022001bc1b4dd82d06631fcb9e",
+  "lien": "https://open.spotify.com/track/34xGLuxM0rkxhCVyMSqwJO",
+  "duree_ms": 313684
  }
 ]
