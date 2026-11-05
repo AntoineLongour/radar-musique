@@ -1114,5 +1114,77 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e0290881d082c9df7081dc7f485",
   "lien": "https://open.spotify.com/track/6UAgnw2w3AVwLg1p7sE7v4",
   "duree_ms": 279635
+ },
+ {
+  "date": "2026-11-05T07:03:54.235Z",
+  "titre": "Soft and Wet",
+  "id": "6Q8s3YuAWkx0Qui0Jgkr5m",
+  "artistes": [
+   "Prince"
+  ],
+  "album": "For You",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ae0e62cc351978ad5203fcfa",
+  "lien": "https://open.spotify.com/track/6Q8s3YuAWkx0Qui0Jgkr5m",
+  "duree_ms": 185173
+ },
+ {
+  "date": "2026-11-05T07:06:51.121Z",
+  "titre": "Soft and Wet",
+  "id": "6Q8s3YuAWkx0Qui0Jgkr5m",
+  "artistes": [
+   "Prince"
+  ],
+  "album": "For You",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ae0e62cc351978ad5203fcfa",
+  "lien": "https://open.spotify.com/track/6Q8s3YuAWkx0Qui0Jgkr5m",
+  "duree_ms": 185173
+ },
+ {
+  "date": "2026-11-05T07:15:43.944Z",
+  "titre": "Catch The Rainbow",
+  "id": "7FtRUrOEDUHTvenvp1BqZo",
+  "artistes": [
+   "Rainbow"
+  ],
+  "album": "Ritchie Blackmore's Rainbow",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e023626f32e555553b537a6493f",
+  "lien": "https://open.spotify.com/track/7FtRUrOEDUHTvenvp1BqZo",
+  "duree_ms": 396466
+ },
+ {
+  "date": "2026-11-05T07:20:12.093Z",
+  "titre": "Levels",
+  "id": "6vOeokRJNZjouabFGDLH1C",
+  "artistes": [
+   "BigXthaPlug"
+  ],
+  "album": "AMAR",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0217dccb67fb0eb5b395316062",
+  "lien": "https://open.spotify.com/track/6vOeokRJNZjouabFGDLH1C",
+  "duree_ms": 157377
+ },
+ {
+  "date": "2026-11-05T07:27:27.561Z",
+  "titre": "Cowboys and Angels - 2010 Remastered Version",
+  "id": "4WCDSDVpgcxtjT9iT8TMGt",
+  "artistes": [
+   "George Michael"
+  ],
+  "album": "Ladies & Gentlemen",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02813629baee66b2ec5f90ebee",
+  "lien": "https://open.spotify.com/track/4WCDSDVpgcxtjT9iT8TMGt",
+  "duree_ms": 434866
+ },
+ {
+  "date": "2026-11-05T07:31:25.135Z",
+  "titre": "No One Noticed",
+  "id": "3siwsiaEoU4Kuuc9WKMUy5",
+  "artistes": [
+   "The Marías"
+  ],
+  "album": "Submarine",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
+  "lien": "https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5",
+  "duree_ms": 236906
  }
 ]
