@@ -1198,5 +1198,78 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02ca5921df99cfc07d51ff4739",
   "lien": "https://open.spotify.com/track/66bRNmcZWbUsCZLbjExJgb",
   "duree_ms": 402013
+ },
+ {
+  "date": "2026-11-05T12:16:34.687Z",
+  "titre": "On s'attache",
+  "id": "4E8hgGDOwG5CpiEke6qZMT",
+  "artistes": [
+   "Christophe Maé"
+  ],
+  "album": "Mon paradis",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e027d89afe4b41cda21e4a2aca5",
+  "lien": "https://open.spotify.com/track/4E8hgGDOwG5CpiEke6qZMT",
+  "duree_ms": 191506
+ },
+ {
+  "date": "2026-11-05T12:20:15.449Z",
+  "titre": "J'ai laissé",
+  "id": "6vlPGRejCJDFci0taKmSBR",
+  "artistes": [
+   "Christophe Maé"
+  ],
+  "album": "On Trace La Route",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02e7c749aa13fa49db9226521f",
+  "lien": "https://open.spotify.com/track/6vlPGRejCJDFci0taKmSBR",
+  "duree_ms": 220253
+ },
+ {
+  "date": "2026-11-05T12:23:44.949Z",
+  "titre": "Belle demoiselle",
+  "id": "4prNHQCgqVpmGJRulNK4zg",
+  "artistes": [
+   "Christophe Maé"
+  ],
+  "album": "Mon paradis",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e027d89afe4b41cda21e4a2aca5",
+  "lien": "https://open.spotify.com/track/4prNHQCgqVpmGJRulNK4zg",
+  "duree_ms": 209000
+ },
+ {
+  "date": "2026-11-05T12:27:47.719Z",
+  "titre": "Tombé sous le charme",
+  "id": "2EifYrFVMyUrNCOz1esOVx",
+  "artistes": [
+   "Christophe Maé"
+  ],
+  "album": "Je veux du bonheur",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e028c12836e43e6e9ca8d445206",
+  "lien": "https://open.spotify.com/track/2EifYrFVMyUrNCOz1esOVx",
+  "duree_ms": 242264
+ },
+ {
+  "date": "2026-11-05T12:32:12.033Z",
+  "titre": "Casting",
+  "id": "7jlSV7VE37txK1FJaJmSVU",
+  "artistes": [
+   "Christophe Maé"
+  ],
+  "album": "La vie d'artiste",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02e572da7c455ac7c7d4bed8b0",
+  "lien": "https://open.spotify.com/track/7jlSV7VE37txK1FJaJmSVU",
+  "duree_ms": 263800
+ },
+ {
+  "date": "2026-11-05T12:37:04.936Z",
+  "titre": "La boutique des rêves (En duo avec Francis Cabrel)",
+  "id": "7y1rG7NZNSKyKk0ZzbTvJa",
+  "artistes": [
+   "Christophe Maé",
+   "Francis Cabrel"
+  ],
+  "album": "Fête foraine",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02deca517c1471ea6ea657d3f7",
+  "lien": "https://open.spotify.com/track/7y1rG7NZNSKyKk0ZzbTvJa",
+  "duree_ms": 197510
  }
 ]
