@@ -1271,5 +1271,53 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02deca517c1471ea6ea657d3f7",
   "lien": "https://open.spotify.com/track/7y1rG7NZNSKyKk0ZzbTvJa",
   "duree_ms": 197510
+ },
+ {
+  "date": "2026-11-06T09:56:43.157Z",
+  "titre": "Il est où le bonheur",
+  "id": "1TM73fujNDKSpigPLfxCZm",
+  "artistes": [
+   "Christophe Maé"
+  ],
+  "album": "L'attrape-rêves",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02940ea7a7ea2bb24fb6c3ea57",
+  "lien": "https://open.spotify.com/track/1TM73fujNDKSpigPLfxCZm",
+  "duree_ms": 250480
+ },
+ {
+  "date": "2026-11-06T10:01:22.305Z",
+  "titre": "Losing My Religion",
+  "id": "31AOj9sFz2gM0O3hMARRBx",
+  "artistes": [
+   "R.E.M."
+  ],
+  "album": "Out Of Time (25th Anniversary Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02e2dd4e821bcc3f70dc0c8ffd",
+  "lien": "https://open.spotify.com/track/31AOj9sFz2gM0O3hMARRBx",
+  "duree_ms": 268426
+ },
+ {
+  "date": "2026-11-06T10:04:11.652Z",
+  "titre": "About A Girl",
+  "id": "2SHTKB8YYlawTGIuJ2b2ok",
+  "artistes": [
+   "Nirvana"
+  ],
+  "album": "Bleach",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0297507fd22fb690cb9085a864",
+  "lien": "https://open.spotify.com/track/2SHTKB8YYlawTGIuJ2b2ok",
+  "duree_ms": 168428
+ },
+ {
+  "date": "2026-11-06T10:06:59.630Z",
+  "titre": "Toop Toop",
+  "id": "7cHhpJV9fC2AqgdiLvq1AO",
+  "artistes": [
+   "Cassius"
+  ],
+  "album": "15 Again (Deluxe Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0224ee286d8ebcaf83d4b899ab",
+  "lien": "https://open.spotify.com/track/7cHhpJV9fC2AqgdiLvq1AO",
+  "duree_ms": 167493
  }
 ]
