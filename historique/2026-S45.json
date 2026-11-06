@@ -1343,5 +1343,41 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02e2dd4e821bcc3f70dc0c8ffd",
   "lien": "https://open.spotify.com/track/31AOj9sFz2gM0O3hMARRBx",
   "duree_ms": 268426
+ },
+ {
+  "date": "2026-11-06T17:02:39.015Z",
+  "titre": "About A Girl",
+  "id": "2SHTKB8YYlawTGIuJ2b2ok",
+  "artistes": [
+   "Nirvana"
+  ],
+  "album": "Bleach",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0297507fd22fb690cb9085a864",
+  "lien": "https://open.spotify.com/track/2SHTKB8YYlawTGIuJ2b2ok",
+  "duree_ms": 168428
+ },
+ {
+  "date": "2026-11-06T17:18:14.863Z",
+  "titre": "Toop Toop",
+  "id": "7cHhpJV9fC2AqgdiLvq1AO",
+  "artistes": [
+   "Cassius"
+  ],
+  "album": "15 Again (Deluxe Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0224ee286d8ebcaf83d4b899ab",
+  "lien": "https://open.spotify.com/track/7cHhpJV9fC2AqgdiLvq1AO",
+  "duree_ms": 167493
+ },
+ {
+  "date": "2026-11-06T17:22:32.847Z",
+  "titre": "High and Dry",
+  "id": "2a1iMaoWQ5MnvLFBDv4qkf",
+  "artistes": [
+   "Radiohead"
+  ],
+  "album": "The Bends",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
+  "lien": "https://open.spotify.com/track/2a1iMaoWQ5MnvLFBDv4qkf",
+  "duree_ms": 257480
  }
 ]
