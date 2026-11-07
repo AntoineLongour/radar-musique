@@ -1403,5 +1403,29 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02e2dd4e821bcc3f70dc0c8ffd",
   "lien": "https://open.spotify.com/track/31AOj9sFz2gM0O3hMARRBx",
   "duree_ms": 268426
+ },
+ {
+  "date": "2026-11-07T21:47:20.982Z",
+  "titre": "Paranoid Android",
+  "id": "6LgJvl0Xdtc73RJ1mmpotq",
+  "artistes": [
+   "Radiohead"
+  ],
+  "album": "OK Computer",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+  "lien": "https://open.spotify.com/track/6LgJvl0Xdtc73RJ1mmpotq",
+  "duree_ms": 387213
+ },
+ {
+  "date": "2026-11-07T21:50:57.398Z",
+  "titre": "Scar Tissue",
+  "id": "1G391cbiT3v3Cywg8T7DM1",
+  "artistes": [
+   "Red Hot Chili Peppers"
+  ],
+  "album": "Californication (Deluxe Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0294d08ab63e57b0cae74e8595",
+  "lien": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1",
+  "duree_ms": 215906
  }
 ]
