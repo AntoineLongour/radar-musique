@@ -1379,5 +1379,29 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
   "lien": "https://open.spotify.com/track/2a1iMaoWQ5MnvLFBDv4qkf",
   "duree_ms": 257480
+ },
+ {
+  "date": "2026-11-07T21:36:00.565Z",
+  "titre": "Psycho Killer",
+  "id": "7dSCxR4LqkmxoBrq9MzVSD",
+  "artistes": [
+   "Talking Heads"
+  ],
+  "album": "Talking Heads '77",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b74dc29f68a36438421a9f1d",
+  "lien": "https://open.spotify.com/track/7dSCxR4LqkmxoBrq9MzVSD",
+  "duree_ms": 260506
+ },
+ {
+  "date": "2026-11-07T21:40:33.077Z",
+  "titre": "Losing My Religion",
+  "id": "31AOj9sFz2gM0O3hMARRBx",
+  "artistes": [
+   "R.E.M."
+  ],
+  "album": "Out Of Time (25th Anniversary Edition)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02e2dd4e821bcc3f70dc0c8ffd",
+  "lien": "https://open.spotify.com/track/31AOj9sFz2gM0O3hMARRBx",
+  "duree_ms": 268426
  }
 ]
