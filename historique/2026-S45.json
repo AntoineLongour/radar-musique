@@ -1692,5 +1692,53 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e026236778a208a15eb71079601",
   "lien": "https://open.spotify.com/track/0WQiDwKJclirSYG9v5tayI",
   "duree_ms": 244586
+ },
+ {
+  "date": "2026-11-08T17:48:24.511Z",
+  "titre": "Time of the Season - Mono Remastered",
+  "id": "6lx1n63qJmhzPpirxxksbI",
+  "artistes": [
+   "The Zombies"
+  ],
+  "album": "Odessey and Oracle (Mono Remastered)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e021745b63f9866f75c76626a40",
+  "lien": "https://open.spotify.com/track/6lx1n63qJmhzPpirxxksbI",
+  "duree_ms": 210648
+ },
+ {
+  "date": "2026-11-08T17:52:24.123Z",
+  "titre": "Be My Baby",
+  "id": "2G2YzndIA6jeWFPBXhUjh5",
+  "artistes": [
+   "The Ronettes"
+  ],
+  "album": "Be My Baby: The Very Best of The Ronettes",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e024694c5b97d3a88efb5fc71b5",
+  "lien": "https://open.spotify.com/track/2G2YzndIA6jeWFPBXhUjh5",
+  "duree_ms": 160906
+ },
+ {
+  "date": "2026-11-08T17:56:02.248Z",
+  "titre": "Be My Baby",
+  "id": "2G2YzndIA6jeWFPBXhUjh5",
+  "artistes": [
+   "The Ronettes"
+  ],
+  "album": "Be My Baby: The Very Best of The Ronettes",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e024694c5b97d3a88efb5fc71b5",
+  "lien": "https://open.spotify.com/track/2G2YzndIA6jeWFPBXhUjh5",
+  "duree_ms": 160906
+ },
+ {
+  "date": "2026-11-08T17:58:53.720Z",
+  "titre": "Baby, I Love You",
+  "id": "4V6ZLk1IHdG00qu3B4m8Y9",
+  "artistes": [
+   "The Ronettes"
+  ],
+  "album": "Be My Baby: The Very Best of The Ronettes",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e024694c5b97d3a88efb5fc71b5",
+  "lien": "https://open.spotify.com/track/4V6ZLk1IHdG00qu3B4m8Y9",
+  "duree_ms": 171480
  }
 ]
