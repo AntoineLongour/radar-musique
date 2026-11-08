@@ -1535,5 +1535,66 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02fdf976de3668b6f65c3f6f91",
   "lien": "https://open.spotify.com/track/3aMIgXaB04SzL68n4lMWLL",
   "duree_ms": 227720
+ },
+ {
+  "date": "2026-11-08T16:30:32.252Z",
+  "titre": "Be My Baby",
+  "id": "2G2YzndIA6jeWFPBXhUjh5",
+  "artistes": [
+   "The Ronettes"
+  ],
+  "album": "Be My Baby: The Very Best of The Ronettes",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e024694c5b97d3a88efb5fc71b5",
+  "lien": "https://open.spotify.com/track/2G2YzndIA6jeWFPBXhUjh5",
+  "duree_ms": 160906
+ },
+ {
+  "date": "2026-11-08T16:33:04.442Z",
+  "titre": "Ain't No Mountain High Enough",
+  "id": "7tqhbajSfrz2F7E1Z75ASX",
+  "artistes": [
+   "Marvin Gaye",
+   "Tammi Terrell"
+  ],
+  "album": "United",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029173e50e99bdea2400222f02",
+  "lien": "https://open.spotify.com/track/7tqhbajSfrz2F7E1Z75ASX",
+  "duree_ms": 151666
+ },
+ {
+  "date": "2026-11-08T16:36:40.713Z",
+  "titre": "Heaven Knows I'm Miserable Now - 2011 Remaster",
+  "id": "1xaTREM89RbIxkcjlpf4Uw",
+  "artistes": [
+   "The Smiths"
+  ],
+  "album": "Hatful of Hollow",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0204480d4422fe67d383386660",
+  "lien": "https://open.spotify.com/track/1xaTREM89RbIxkcjlpf4Uw",
+  "duree_ms": 215760
+ },
+ {
+  "date": "2026-11-08T16:40:15.151Z",
+  "titre": "Lovers Rock",
+  "id": "6dBUzqjtbnIa1TwYbyw5CM",
+  "artistes": [
+   "TV Girl"
+  ],
+  "album": "French Exit",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02e1bc1af856b42dd7fdba9f84",
+  "lien": "https://open.spotify.com/track/6dBUzqjtbnIa1TwYbyw5CM",
+  "duree_ms": 213920
+ },
+ {
+  "date": "2026-11-08T16:46:27.051Z",
+  "titre": "\"Heroes\" - 2017 Remaster",
+  "id": "7Jh1bpe76CNTCgdgAdBw4Z",
+  "artistes": [
+   "David Bowie"
+  ],
+  "album": "\"Heroes\" (2017 Remaster)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02204f41d52743c6a9efd62985",
+  "lien": "https://open.spotify.com/track/7Jh1bpe76CNTCgdgAdBw4Z",
+  "duree_ms": 371413
  }
 ]
