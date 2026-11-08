@@ -1740,5 +1740,29 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e024694c5b97d3a88efb5fc71b5",
   "lien": "https://open.spotify.com/track/4V6ZLk1IHdG00qu3B4m8Y9",
   "duree_ms": 171480
+ },
+ {
+  "date": "2026-11-08T18:02:13.925Z",
+  "titre": "(The Best Part Of) Breakin' Up",
+  "id": "3gBkaIy0nE5mDiYeC5iL97",
+  "artistes": [
+   "The Ronettes"
+  ],
+  "album": "Be My Baby: The Very Best of The Ronettes",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e024694c5b97d3a88efb5fc71b5",
+  "lien": "https://open.spotify.com/track/3gBkaIy0nE5mDiYeC5iL97",
+  "duree_ms": 184346
+ },
+ {
+  "date": "2026-11-08T22:12:16.763Z",
+  "titre": "So Young",
+  "id": "0s2rcQxNOk0z2YCLVdGeWG",
+  "artistes": [
+   "The Ronettes"
+  ],
+  "album": "Be My Baby: The Very Best of The Ronettes",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e024694c5b97d3a88efb5fc71b5",
+  "lien": "https://open.spotify.com/track/0s2rcQxNOk0z2YCLVdGeWG",
+  "duree_ms": 155506
  }
 ]
