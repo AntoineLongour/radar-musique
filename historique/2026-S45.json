@@ -1475,5 +1475,53 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
   "lien": "https://open.spotify.com/track/73CKjW3vsUXRpy3NnX4H7F",
   "duree_ms": 290706
+ },
+ {
+  "date": "2026-11-08T10:01:19.665Z",
+  "titre": "Africa",
+  "id": "2374M0fQpWi3dLnB54qaLX",
+  "artistes": [
+   "TOTO"
+  ],
+  "album": "Toto IV",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ebd6d20c0082524244ef83df",
+  "lien": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX",
+  "duree_ms": 295282
+ },
+ {
+  "date": "2026-11-08T10:06:13.614Z",
+  "titre": "Crazy On You",
+  "id": "5zH710lFSLtkHbMkslLDjR",
+  "artistes": [
+   "Heart"
+  ],
+  "album": "Dreamboat Annie",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
+  "lien": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
+  "duree_ms": 293440
+ },
+ {
+  "date": "2026-11-08T10:10:23.193Z",
+  "titre": "Jigsaw Falling Into Place",
+  "id": "0YJ9FWWHn9EfnN0lHwbzvV",
+  "artistes": [
+   "Radiohead"
+  ],
+  "album": "In Rainbows",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02de3c04b5fc750b68899b20a9",
+  "lien": "https://open.spotify.com/track/0YJ9FWWHn9EfnN0lHwbzvV",
+  "duree_ms": 248893
+ },
+ {
+  "date": "2026-11-08T10:15:12.745Z",
+  "titre": "Wicked Game",
+  "id": "2y42xAsl6dfMeVXQgOYsUw",
+  "artistes": [
+   "Chris Isaak"
+  ],
+  "album": "Heart Shaped World",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ad0e25c1c366d63bcbae4073",
+  "lien": "https://open.spotify.com/track/2y42xAsl6dfMeVXQgOYsUw",
+  "duree_ms": 289066
  }
 ]
