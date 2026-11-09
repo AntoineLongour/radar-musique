@@ -311,5 +311,29 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02fbc71c99f9c1296c56dd51b6",
   "lien": "https://open.spotify.com/track/0bTLGlCqwZXwJGWGE2Dywg",
   "duree_ms": 223880
+ },
+ {
+  "date": "2026-11-09T07:43:59.564Z",
+  "titre": "Dani California",
+  "id": "10Nmj3JCNoMeBQ87uw5j8k",
+  "artistes": [
+   "Red Hot Chili Peppers"
+  ],
+  "album": "Stadium Arcadium",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0209fd83d32aee93dceba78517",
+  "lien": "https://open.spotify.com/track/10Nmj3JCNoMeBQ87uw5j8k",
+  "duree_ms": 282160
+ },
+ {
+  "date": "2026-11-09T07:51:18.328Z",
+  "titre": "･－･･ ･ － ･･ － －－･ －－－",
+  "id": "26trS5IUeIbXrKAuFMdzWT",
+  "artistes": [
+   "･ ･－･ ･－ ･･･ ･ －･･"
+  ],
+  "album": "･－･･ ･ － ･･ － －－･ －－－",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02781e3bc85ef064adf7cc5c25",
+  "lien": "https://open.spotify.com/track/26trS5IUeIbXrKAuFMdzWT",
+  "duree_ms": 438129
  }
 ]
