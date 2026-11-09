@@ -527,5 +527,29 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02b51822f07d7bf5bbf0e40a79",
   "lien": "https://open.spotify.com/track/5MOWBRtP53q5yNOtHaMVTh",
   "duree_ms": 143654
+ },
+ {
+  "date": "2026-11-09T11:09:17.982Z",
+  "titre": "White Noise for Deep Focus",
+  "id": "310c9S3sVZJOAhNRsEtk4Q",
+  "artistes": [
+   "Librarical Nature"
+  ],
+  "album": "White Noise for Deep Focus",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e025da5da9c4721319814f321c6",
+  "lien": "https://open.spotify.com/track/310c9S3sVZJOAhNRsEtk4Q",
+  "duree_ms": 143994
+ },
+ {
+  "date": "2026-11-09T11:11:36.882Z",
+  "titre": "Addormentarsi",
+  "id": "5CJwgyuXlhfXiZzJI53BUw",
+  "artistes": [
+   "Natural Sample Makers"
+  ],
+  "album": "Rumori Di Notte",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e023dd39710bdf2156b377978b9",
+  "lien": "https://open.spotify.com/track/5CJwgyuXlhfXiZzJI53BUw",
+  "duree_ms": 150836
  }
 ]
