@@ -31,5 +31,16 @@
     "lien": "https://www.themoviedb.org/movie/38",
     "definitif": true,
     "choisi_le": "2026-11-09T00:46+01:00"
+  },
+  "2026-S46": {
+    "titre": "Donnie Darko",
+    "titre_original": "Donnie Darko",
+    "annee": 2001,
+    "realisateur": "Richard Kelly",
+    "pourquoi": "Ce film te plonge dans une atmosphère sombre et énigmatique qui résonne avec la mélancolie de Radiohead et l'intensité brute de Nirvana. Son mélange d'angoisse adolescente et de visuels troublants reflète l'énergie de tes titres les plus écoutés.",
+    "affiche": "https://image.tmdb.org/t/p/w342/z3gIuT4e4tjCKYEYJChcBI44U21.jpg",
+    "lien": "https://www.themoviedb.org/movie/141",
+    "definitif": false,
+    "choisi_le": "2026-11-09T02:22+01:00"
   }
 }
