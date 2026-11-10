@@ -661,5 +661,20 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02d613feeb6701761f743f0257",
   "lien": "https://open.spotify.com/track/2fB3Gu8lFj8tofGchBahR7",
   "duree_ms": 63728
+ },
+ {
+  "date": "2026-11-10T11:57:55.152Z",
+  "titre": "On My Line",
+  "id": "2o7uIR1RTaMWOANolL3cJn",
+  "artistes": [
+   "Lucane",
+   "Bee New",
+   "Yesterday",
+   "Mike Sherm"
+  ],
+  "album": "On My Line",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02ca6463c3a99e780dfb6bca08",
+  "lien": "https://open.spotify.com/track/2o7uIR1RTaMWOANolL3cJn",
+  "duree_ms": 267024
  }
 ]
