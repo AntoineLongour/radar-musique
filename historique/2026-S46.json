@@ -842,5 +842,102 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02450799e337be82b0d5fd191a",
   "lien": "https://open.spotify.com/track/3wcapFiU4IeKM0tV4DidzY",
   "duree_ms": 281250
+ },
+ {
+  "date": "2026-11-10T20:09:51.875Z",
+  "titre": "Samurai",
+  "id": "0wJw5QXDKXTYn8IVyh3wqz",
+  "artistes": [
+   "Lupe Fiasco"
+  ],
+  "album": "Samurai",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02afd65b04748aff25b77071f4",
+  "lien": "https://open.spotify.com/track/0wJw5QXDKXTYn8IVyh3wqz",
+  "duree_ms": 194786
+ },
+ {
+  "date": "2026-11-10T20:12:09.342Z",
+  "titre": "Mexico en Janvier - Lushe Remix",
+  "id": "6IrgCQLtHiFVJwj08FL4uI",
+  "artistes": [
+   "Lushe",
+   "Bigflo & Oli"
+  ],
+  "album": "Mexico en Janvier (Lushe Remix)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0222fd48f249f900f7a5400524",
+  "lien": "https://open.spotify.com/track/6IrgCQLtHiFVJwj08FL4uI",
+  "duree_ms": 123000
+ },
+ {
+  "date": "2026-11-10T20:14:14.856Z",
+  "titre": "Afro Trap Pt. 2 (Kakala Bomaye)",
+  "id": "0woiUWlJdYOfGc4LHvJ71n",
+  "artistes": [
+   "MHD"
+  ],
+  "album": "MHD",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02c3490d16a931cb5f265715bf",
+  "lien": "https://open.spotify.com/track/0woiUWlJdYOfGc4LHvJ71n",
+  "duree_ms": 125013
+ },
+ {
+  "date": "2026-11-10T20:16:52.729Z",
+  "titre": "Levels",
+  "id": "6vOeokRJNZjouabFGDLH1C",
+  "artistes": [
+   "BigXthaPlug"
+  ],
+  "album": "AMAR",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0217dccb67fb0eb5b395316062",
+  "lien": "https://open.spotify.com/track/6vOeokRJNZjouabFGDLH1C",
+  "duree_ms": 157377
+ },
+ {
+  "date": "2026-11-10T20:24:22.723Z",
+  "titre": "Cowboys and Angels - 2010 Remastered Version",
+  "id": "4WCDSDVpgcxtjT9iT8TMGt",
+  "artistes": [
+   "George Michael"
+  ],
+  "album": "Ladies & Gentlemen",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02813629baee66b2ec5f90ebee",
+  "lien": "https://open.spotify.com/track/4WCDSDVpgcxtjT9iT8TMGt",
+  "duree_ms": 434866
+ },
+ {
+  "date": "2026-11-10T20:28:20.021Z",
+  "titre": "No One Noticed",
+  "id": "3siwsiaEoU4Kuuc9WKMUy5",
+  "artistes": [
+   "The Marías"
+  ],
+  "album": "Submarine",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
+  "lien": "https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5",
+  "duree_ms": 236906
+ },
+ {
+  "date": "2026-11-10T20:38:16.864Z",
+  "titre": "La ritournelle",
+  "id": "0vytXvzWGGlIIJwvMPDm2Q",
+  "artistes": [
+   "Sébastien Tellier"
+  ],
+  "album": "Late Night Tales: The Cinematic Orchestra",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0227eb130d54694a7d31a1a2e0",
+  "lien": "https://open.spotify.com/track/0vytXvzWGGlIIJwvMPDm2Q",
+  "duree_ms": 460382
+ },
+ {
+  "date": "2026-11-10T20:43:54.585Z",
+  "titre": "M.E.",
+  "id": "0YBA7eO8kqEzUoC6zAEutF",
+  "artistes": [
+   "Gary Numan"
+  ],
+  "album": "The Pleasure Principle",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020b3bc5a3aa41c71b256e0e22",
+  "lien": "https://open.spotify.com/track/0YBA7eO8kqEzUoC6zAEutF",
+  "duree_ms": 337240
  }
 ]
