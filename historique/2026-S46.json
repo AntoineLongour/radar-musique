@@ -1295,5 +1295,42 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02945c366eda66495226e4a46d",
   "lien": "https://open.spotify.com/track/2zFdsAIk9r2Mi7Lmm1w3sM",
   "duree_ms": 264573
+ },
+ {
+  "date": "2026-11-12T11:24:35.994Z",
+  "titre": "Dari Demou'ek",
+  "id": "3wcapFiU4IeKM0tV4DidzY",
+  "artistes": [
+   "Hamid Al Shaeri"
+  ],
+  "album": "The SLAM! Years: 1983 - 1988 (Habibi Funk 018)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02450799e337be82b0d5fd191a",
+  "lien": "https://open.spotify.com/track/3wcapFiU4IeKM0tV4DidzY",
+  "duree_ms": 281250
+ },
+ {
+  "date": "2026-11-12T11:27:51.284Z",
+  "titre": "Samurai",
+  "id": "0wJw5QXDKXTYn8IVyh3wqz",
+  "artistes": [
+   "Lupe Fiasco"
+  ],
+  "album": "Samurai",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02afd65b04748aff25b77071f4",
+  "lien": "https://open.spotify.com/track/0wJw5QXDKXTYn8IVyh3wqz",
+  "duree_ms": 194786
+ },
+ {
+  "date": "2026-11-12T11:33:37.594Z",
+  "titre": "Easy Lover",
+  "id": "7INi4pMPG4IE0Smx5y4KVf",
+  "artistes": [
+   "Philip Bailey",
+   "Phil Collins"
+  ],
+  "album": "Chinese Wall",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02d05d00a34eee4d09ec104298",
+  "lien": "https://open.spotify.com/track/7INi4pMPG4IE0Smx5y4KVf",
+  "duree_ms": 304506
  }
 ]
