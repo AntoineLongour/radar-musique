@@ -1598,5 +1598,29 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e0217dccb67fb0eb5b395316062",
   "lien": "https://open.spotify.com/track/6vOeokRJNZjouabFGDLH1C",
   "duree_ms": 157377
+ },
+ {
+  "date": "2026-11-14T14:59:45.906Z",
+  "titre": "Cowboys and Angels - 2010 Remastered Version",
+  "id": "4WCDSDVpgcxtjT9iT8TMGt",
+  "artistes": [
+   "George Michael"
+  ],
+  "album": "Ladies & Gentlemen",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02813629baee66b2ec5f90ebee",
+  "lien": "https://open.spotify.com/track/4WCDSDVpgcxtjT9iT8TMGt",
+  "duree_ms": 434866
+ },
+ {
+  "date": "2026-11-14T15:03:43.264Z",
+  "titre": "No One Noticed",
+  "id": "3siwsiaEoU4Kuuc9WKMUy5",
+  "artistes": [
+   "The Marías"
+  ],
+  "album": "Submarine",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
+  "lien": "https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5",
+  "duree_ms": 236906
  }
 ]
