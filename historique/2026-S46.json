@@ -1869,5 +1869,54 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02ca5921df99cfc07d51ff4739",
   "lien": "https://open.spotify.com/track/66bRNmcZWbUsCZLbjExJgb",
   "duree_ms": 402013
+ },
+ {
+  "date": "2026-11-15T15:34:18.029Z",
+  "titre": "En apesanteur - Single Version",
+  "id": "07VyIZXNfVS13AbebQDQWy",
+  "artistes": [
+   "Calogero"
+  ],
+  "album": "Calogero",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029077a047917cfdf0feade48e",
+  "lien": "https://open.spotify.com/track/07VyIZXNfVS13AbebQDQWy",
+  "duree_ms": 203600
+ },
+ {
+  "date": "2026-11-15T15:37:19.830Z",
+  "titre": "Le portrait",
+  "id": "3IQnD3qnyLpTpCWtwxDrGz",
+  "artistes": [
+   "Calogero"
+  ],
+  "album": "Les feux d'artifice (Deluxe)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e022f5c9df901fc3f3797358fb1",
+  "lien": "https://open.spotify.com/track/3IQnD3qnyLpTpCWtwxDrGz",
+  "duree_ms": 181333
+ },
+ {
+  "date": "2026-11-15T15:42:15.423Z",
+  "titre": "Un jour au mauvais endroit",
+  "id": "7ncNqIzXGRrKdP6C9fQUbm",
+  "artistes": [
+   "Calogero"
+  ],
+  "album": "Les feux d'artifice",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02aa4b4d941e62973166af40a5",
+  "lien": "https://open.spotify.com/track/7ncNqIzXGRrKdP6C9fQUbm",
+  "duree_ms": 294173
+ },
+ {
+  "date": "2026-11-15T15:51:39.101Z",
+  "titre": "Face à la mer",
+  "id": "4nz1v2ghmGRo3RTZKxaC3P",
+  "artistes": [
+   "Calogero",
+   "Passi"
+  ],
+  "album": "Calog3ro",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02dc5810a428f839b8b9efcfcd",
+  "lien": "https://open.spotify.com/track/4nz1v2ghmGRo3RTZKxaC3P",
+  "duree_ms": 223333
  }
 ]
