@@ -1696,5 +1696,31 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e020f5397dc6aa91374897182e0",
   "lien": "https://open.spotify.com/track/7eBqSVxrzQZtK2mmgRG6lC",
   "duree_ms": 268434
+ },
+ {
+  "date": "2026-11-15T12:11:09.785Z",
+  "titre": "Let's Play",
+  "id": "5KQ6jVizgxjd2XBn8qKKCh",
+  "artistes": [
+   "Dabeull",
+   "HolyBrune",
+   "Dezzy Hollow"
+  ],
+  "album": "Analog Love",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
+  "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
+  "duree_ms": 244146
+ },
+ {
+  "date": "2026-11-15T12:16:16.064Z",
+  "titre": "I Love You",
+  "id": "5XhMgAWzou6EjDmQtoyoZE",
+  "artistes": [
+   "Fontaines D.C."
+  ],
+  "album": "Skinty Fia",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b23737878e75582c2e255029",
+  "lien": "https://open.spotify.com/track/5XhMgAWzou6EjDmQtoyoZE",
+  "duree_ms": 305800
  }
 ]
