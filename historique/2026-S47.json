@@ -354,5 +354,55 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
   "lien": "https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5",
   "duree_ms": 236906
+ },
+ {
+  "date": "2026-11-16T21:39:17.890Z",
+  "titre": "La Fille De La Bande",
+  "id": "3v9Bh4gvmxUaB8Ej7olJs5",
+  "artistes": [
+   "Renan Luce"
+  ],
+  "album": "La Fille De La Bande",
+  "pochette": "https://i.scdn.co/image/ab6742d3000052b7f4ab980f1ea3215dd52e1456",
+  "lien": "https://open.spotify.com/track/3v9Bh4gvmxUaB8Ej7olJs5",
+  "duree_ms": 285600
+ },
+ {
+  "date": "2026-11-16T21:42:59.097Z",
+  "titre": "Les voisines",
+  "id": "3moelwvWkm8rliDyjywgA1",
+  "artistes": [
+   "Renan Luce"
+  ],
+  "album": "Repenti",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e028fc055f4f40c677a148606a0",
+  "lien": "https://open.spotify.com/track/3moelwvWkm8rliDyjywgA1",
+  "duree_ms": 215813
+ },
+ {
+  "date": "2026-11-16T21:46:25.994Z",
+  "titre": "Hate It Or Love It",
+  "id": "2wGSgTmgSF3xjRrHkTc25R",
+  "artistes": [
+   "The Game",
+   "50 Cent"
+  ],
+  "album": "The Documentary",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b1d860ab1ba847e778b2796d",
+  "lien": "https://open.spotify.com/track/2wGSgTmgSF3xjRrHkTc25R",
+  "duree_ms": 206400
+ },
+ {
+  "date": "2026-11-16T21:53:48.894Z",
+  "titre": "Luv (sic) Grand Finale",
+  "id": "5Lc1ljefpvGTlbqxWt5JiX",
+  "artistes": [
+   "Nujabes",
+   "Shing02"
+  ],
+  "album": "Luv(sic) Hexalogy",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02386591bf95523466b29dade3",
+  "lien": "https://open.spotify.com/track/5Lc1ljefpvGTlbqxWt5JiX",
+  "duree_ms": 316760
  }
 ]
