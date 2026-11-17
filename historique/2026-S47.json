@@ -867,5 +867,45 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e021e522dc896562906ae2957b7",
   "lien": "https://open.spotify.com/track/63UqmKUcnJxEWewv3kKeOp",
   "duree_ms": 342773
+ },
+ {
+  "date": "2026-11-17T20:35:44.977Z",
+  "titre": "That's All - 2007 Remaster",
+  "id": "2zFdsAIk9r2Mi7Lmm1w3sM",
+  "artistes": [
+   "Genesis"
+  ],
+  "album": "Genesis (2007 Remaster)",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02945c366eda66495226e4a46d",
+  "lien": "https://open.spotify.com/track/2zFdsAIk9r2Mi7Lmm1w3sM",
+  "duree_ms": 264573
+ },
+ {
+  "date": "2026-11-17T20:39:54.927Z",
+  "titre": "Let's Play",
+  "id": "5KQ6jVizgxjd2XBn8qKKCh",
+  "artistes": [
+   "Dabeull",
+   "HolyBrune",
+   "Dezzy Hollow"
+  ],
+  "album": "Analog Love",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
+  "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
+  "duree_ms": 244146
+ },
+ {
+  "date": "2026-11-17T21:00:17.810Z",
+  "titre": "Let's Play",
+  "id": "5KQ6jVizgxjd2XBn8qKKCh",
+  "artistes": [
+   "Dabeull",
+   "HolyBrune",
+   "Dezzy Hollow"
+  ],
+  "album": "Analog Love",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
+  "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
+  "duree_ms": 244146
  }
 ]
