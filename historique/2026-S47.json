@@ -514,5 +514,115 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e020ddd7e736f870994f4707947",
   "lien": "https://open.spotify.com/track/7GVvj4zJNVuBJSl6StEfn5",
   "duree_ms": 175273
+ },
+ {
+  "date": "2026-11-17T09:21:34.876Z",
+  "titre": "Let's Play",
+  "id": "5KQ6jVizgxjd2XBn8qKKCh",
+  "artistes": [
+   "Dabeull",
+   "HolyBrune",
+   "Dezzy Hollow"
+  ],
+  "album": "Analog Love",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
+  "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
+  "duree_ms": 244146
+ },
+ {
+  "date": "2026-11-17T09:26:41.166Z",
+  "titre": "I Love You",
+  "id": "5XhMgAWzou6EjDmQtoyoZE",
+  "artistes": [
+   "Fontaines D.C."
+  ],
+  "album": "Skinty Fia",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b23737878e75582c2e255029",
+  "lien": "https://open.spotify.com/track/5XhMgAWzou6EjDmQtoyoZE",
+  "duree_ms": 305800
+ },
+ {
+  "date": "2026-11-17T09:31:10.108Z",
+  "titre": "Murder on My Mind",
+  "id": "7eBqSVxrzQZtK2mmgRG6lC",
+  "artistes": [
+   "YNW Melly"
+  ],
+  "album": "I AM YOU",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020f5397dc6aa91374897182e0",
+  "lien": "https://open.spotify.com/track/7eBqSVxrzQZtK2mmgRG6lC",
+  "duree_ms": 268434
+ },
+ {
+  "date": "2026-11-17T09:35:10.197Z",
+  "titre": "Pumped Up Kicks",
+  "id": "7w87IxuO7BDcJ3YUqCyMTT",
+  "artistes": [
+   "Foster The People"
+  ],
+  "album": "Torches",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02121d5f92cf90576907dfb1e5",
+  "lien": "https://open.spotify.com/track/7w87IxuO7BDcJ3YUqCyMTT",
+  "duree_ms": 239600
+ },
+ {
+  "date": "2026-11-17T09:37:26.814Z",
+  "titre": "TOUT À ZÉRO",
+  "id": "2UNwr8toDEw4UU5DSQmx84",
+  "artistes": [
+   "ZERO TP 550"
+  ],
+  "album": "TOUT À ZÉRO",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e022f01e9369063d786bda97776",
+  "lien": "https://open.spotify.com/track/2UNwr8toDEw4UU5DSQmx84",
+  "duree_ms": 136138
+ },
+ {
+  "date": "2026-11-17T09:40:20.060Z",
+  "titre": "Afro Trap Pt. 2 (Kakala Bomaye)",
+  "id": "0woiUWlJdYOfGc4LHvJ71n",
+  "artistes": [
+   "MHD"
+  ],
+  "album": "MHD",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02c3490d16a931cb5f265715bf",
+  "lien": "https://open.spotify.com/track/0woiUWlJdYOfGc4LHvJ71n",
+  "duree_ms": 125013
+ },
+ {
+  "date": "2026-11-17T09:42:57.949Z",
+  "titre": "Levels",
+  "id": "6vOeokRJNZjouabFGDLH1C",
+  "artistes": [
+   "BigXthaPlug"
+  ],
+  "album": "AMAR",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0217dccb67fb0eb5b395316062",
+  "lien": "https://open.spotify.com/track/6vOeokRJNZjouabFGDLH1C",
+  "duree_ms": 157377
+ },
+ {
+  "date": "2026-11-17T09:50:13.277Z",
+  "titre": "Cowboys and Angels - 2010 Remastered Version",
+  "id": "4WCDSDVpgcxtjT9iT8TMGt",
+  "artistes": [
+   "George Michael"
+  ],
+  "album": "Ladies & Gentlemen",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02813629baee66b2ec5f90ebee",
+  "lien": "https://open.spotify.com/track/4WCDSDVpgcxtjT9iT8TMGt",
+  "duree_ms": 434866
+ },
+ {
+  "date": "2026-11-17T09:54:10.709Z",
+  "titre": "No One Noticed",
+  "id": "3siwsiaEoU4Kuuc9WKMUy5",
+  "artistes": [
+   "The Marías"
+  ],
+  "album": "Submarine",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e028aa339341a0b0c813909c831",
+  "lien": "https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5",
+  "duree_ms": 236906
  }
 ]
