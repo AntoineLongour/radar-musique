@@ -943,5 +943,29 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02aa4b4d941e62973166af40a5",
   "lien": "https://open.spotify.com/track/7ncNqIzXGRrKdP6C9fQUbm",
   "duree_ms": 294173
+ },
+ {
+  "date": "2026-11-18T12:02:41.054Z",
+  "titre": "En apesanteur - Single Version",
+  "id": "07VyIZXNfVS13AbebQDQWy",
+  "artistes": [
+   "Calogero"
+  ],
+  "album": "Calogero",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029077a047917cfdf0feade48e",
+  "lien": "https://open.spotify.com/track/07VyIZXNfVS13AbebQDQWy",
+  "duree_ms": 203600
+ },
+ {
+  "date": "2026-11-18T12:07:35.744Z",
+  "titre": "Un jour au mauvais endroit",
+  "id": "7ncNqIzXGRrKdP6C9fQUbm",
+  "artistes": [
+   "Calogero"
+  ],
+  "album": "Les feux d'artifice",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02aa4b4d941e62973166af40a5",
+  "lien": "https://open.spotify.com/track/7ncNqIzXGRrKdP6C9fQUbm",
+  "duree_ms": 294173
  }
 ]
