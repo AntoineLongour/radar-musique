@@ -907,5 +907,41 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
   "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
   "duree_ms": 244146
+ },
+ {
+  "date": "2026-11-18T08:09:57.099Z",
+  "titre": "I Love You",
+  "id": "5XhMgAWzou6EjDmQtoyoZE",
+  "artistes": [
+   "Fontaines D.C."
+  ],
+  "album": "Skinty Fia",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b23737878e75582c2e255029",
+  "lien": "https://open.spotify.com/track/5XhMgAWzou6EjDmQtoyoZE",
+  "duree_ms": 305800
+ },
+ {
+  "date": "2026-11-18T08:13:25.150Z",
+  "titre": "En apesanteur - Single Version",
+  "id": "07VyIZXNfVS13AbebQDQWy",
+  "artistes": [
+   "Calogero"
+  ],
+  "album": "Calogero",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029077a047917cfdf0feade48e",
+  "lien": "https://open.spotify.com/track/07VyIZXNfVS13AbebQDQWy",
+  "duree_ms": 203600
+ },
+ {
+  "date": "2026-11-18T08:18:19.816Z",
+  "titre": "Un jour au mauvais endroit",
+  "id": "7ncNqIzXGRrKdP6C9fQUbm",
+  "artistes": [
+   "Calogero"
+  ],
+  "album": "Les feux d'artifice",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02aa4b4d941e62973166af40a5",
+  "lien": "https://open.spotify.com/track/7ncNqIzXGRrKdP6C9fQUbm",
+  "duree_ms": 294173
  }
 ]
