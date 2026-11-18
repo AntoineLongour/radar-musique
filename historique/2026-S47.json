@@ -1115,5 +1115,55 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e02121d5f92cf90576907dfb1e5",
   "lien": "https://open.spotify.com/track/7w87IxuO7BDcJ3YUqCyMTT",
   "duree_ms": 239600
+ },
+ {
+  "date": "2026-11-18T19:35:24.618Z",
+  "titre": "TOUT À ZÉRO",
+  "id": "2UNwr8toDEw4UU5DSQmx84",
+  "artistes": [
+   "ZERO TP 550"
+  ],
+  "album": "TOUT À ZÉRO",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e022f01e9369063d786bda97776",
+  "lien": "https://open.spotify.com/track/2UNwr8toDEw4UU5DSQmx84",
+  "duree_ms": 136138
+ },
+ {
+  "date": "2026-11-18T19:40:11.062Z",
+  "titre": "Let's Play",
+  "id": "5KQ6jVizgxjd2XBn8qKKCh",
+  "artistes": [
+   "Dabeull",
+   "HolyBrune",
+   "Dezzy Hollow"
+  ],
+  "album": "Analog Love",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
+  "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
+  "duree_ms": 244146
+ },
+ {
+  "date": "2026-11-18T19:45:57.564Z",
+  "titre": "I Love You",
+  "id": "5XhMgAWzou6EjDmQtoyoZE",
+  "artistes": [
+   "Fontaines D.C."
+  ],
+  "album": "Skinty Fia",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b23737878e75582c2e255029",
+  "lien": "https://open.spotify.com/track/5XhMgAWzou6EjDmQtoyoZE",
+  "duree_ms": 305800
+ },
+ {
+  "date": "2026-11-18T19:50:26.478Z",
+  "titre": "Murder on My Mind",
+  "id": "7eBqSVxrzQZtK2mmgRG6lC",
+  "artistes": [
+   "YNW Melly"
+  ],
+  "album": "I AM YOU",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020f5397dc6aa91374897182e0",
+  "lien": "https://open.spotify.com/track/7eBqSVxrzQZtK2mmgRG6lC",
+  "duree_ms": 268434
  }
 ]
