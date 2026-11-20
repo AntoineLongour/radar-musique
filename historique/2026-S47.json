@@ -2166,5 +2166,45 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e020fe8b10ca2b033d5213e7704",
   "lien": "https://open.spotify.com/track/3F8T15ypoilwLqEyv928pH",
   "duree_ms": 246928
+ },
+ {
+  "date": "2026-11-20T08:11:42.356Z",
+  "titre": "Let's Play",
+  "id": "5KQ6jVizgxjd2XBn8qKKCh",
+  "artistes": [
+   "Dabeull",
+   "HolyBrune",
+   "Dezzy Hollow"
+  ],
+  "album": "Analog Love",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
+  "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
+  "duree_ms": 244146
+ },
+ {
+  "date": "2026-11-20T11:48:35.249Z",
+  "titre": "Let's Play",
+  "id": "5KQ6jVizgxjd2XBn8qKKCh",
+  "artistes": [
+   "Dabeull",
+   "HolyBrune",
+   "Dezzy Hollow"
+  ],
+  "album": "Analog Love",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
+  "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
+  "duree_ms": 244146
+ },
+ {
+  "date": "2026-11-20T11:52:06.213Z",
+  "titre": "on the precipice of defeat",
+  "id": "32SYEk2ksN8iQtz50AtHYj",
+  "artistes": [
+   "Shiro SAGISU"
+  ],
+  "album": "TV Animation BLEACH Original Soundtrack 1",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02bd3814048a90a816b93a96bf",
+  "lien": "https://open.spotify.com/track/32SYEk2ksN8iQtz50AtHYj",
+  "duree_ms": 177106
  }
 ]
