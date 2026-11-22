@@ -2617,5 +2617,31 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e022a69fd4eb07177ad0c7896f5",
   "lien": "https://open.spotify.com/track/0bnithu1SffxxNN059Ow3x",
   "duree_ms": 377746
+ },
+ {
+  "date": "2026-11-22T10:35:28.690Z",
+  "titre": "In My Head",
+  "id": "5vwXQUwkpmnkJrfv69L6Mp",
+  "artistes": [
+   "Bedroom"
+  ],
+  "album": "In My Head",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02c3b630a32628bdc23d55a359",
+  "lien": "https://open.spotify.com/track/5vwXQUwkpmnkJrfv69L6Mp",
+  "duree_ms": 354691
+ },
+ {
+  "date": "2026-11-22T10:39:36.840Z",
+  "titre": "Let's Play",
+  "id": "5KQ6jVizgxjd2XBn8qKKCh",
+  "artistes": [
+   "Dabeull",
+   "HolyBrune",
+   "Dezzy Hollow"
+  ],
+  "album": "Analog Love",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
+  "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
+  "duree_ms": 244146
  }
 ]
