@@ -2643,5 +2643,29 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
   "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
   "duree_ms": 244146
+ },
+ {
+  "date": "2026-11-22T20:29:59.985Z",
+  "titre": "Watermelon Man",
+  "id": "2zQl59dZMzwhrmeSBEgiXY",
+  "artistes": [
+   "Herbie Hancock"
+  ],
+  "album": "Head Hunters",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b170840d6fdbc754ba304058",
+  "lien": "https://open.spotify.com/track/2zQl59dZMzwhrmeSBEgiXY",
+  "duree_ms": 390432
+ },
+ {
+  "date": "2026-11-22T20:36:49.218Z",
+  "titre": "BREATH",
+  "id": "7jRiYlv4KQU2vT6lG7I1to",
+  "artistes": [
+   "The Blaze"
+  ],
+  "album": "DANCEHALL",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02fb8b2c04222171f2c970d6ac",
+  "lien": "https://open.spotify.com/track/7jRiYlv4KQU2vT6lG7I1to",
+  "duree_ms": 229426
  }
 ]
