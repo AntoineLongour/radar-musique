@@ -53,5 +53,16 @@
     "lien": "https://www.themoviedb.org/movie/339403",
     "definitif": true,
     "choisi_le": "2026-11-23T04:44+01:00"
+  },
+  "2026-S48": {
+    "titre": "Enter the Void",
+    "titre_original": "Enter the Void",
+    "annee": 2009,
+    "realisateur": "Gaspar Noé",
+    "pourquoi": "Les textures psychédéliques d'EsDeeKid et les rythmes planants de Rico Ace collent à l'atmosphère néon et immersive d'Enter the Void, où chaque plan pulse comme tes morceaux préférés.",
+    "affiche": "https://image.tmdb.org/t/p/w342/krKnsfvSJM1PL40tLicRhVQ6kuG.jpg",
+    "lien": "https://www.themoviedb.org/movie/34647",
+    "definitif": false,
+    "choisi_le": "2026-11-23T15:41+01:00"
   }
 }
