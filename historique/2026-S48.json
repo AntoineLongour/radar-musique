@@ -1316,5 +1316,65 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e028254ae42967721a34dd183ab",
   "lien": "https://open.spotify.com/track/0Eeb9wBQ0E4XHDm9nu1Zdq",
   "duree_ms": 115265
+ },
+ {
+  "date": "2026-11-25T22:37:15.763Z",
+  "titre": "float",
+  "id": "0v9ogTeCXfyqvJ314fukhA",
+  "artistes": [
+   "m4lty.s"
+  ],
+  "album": "4our",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e026f191e259b63ff0168028161",
+  "lien": "https://open.spotify.com/track/0v9ogTeCXfyqvJ314fukhA",
+  "duree_ms": 120149
+ },
+ {
+  "date": "2026-11-25T22:38:48.938Z",
+  "titre": "North Pole",
+  "id": "0m74fvFOwWfr2QoHgZHnni",
+  "artistes": [
+   "Boohavinn"
+  ],
+  "album": "North Pole",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0204823c7c3af2fb2d69d173c3",
+  "lien": "https://open.spotify.com/track/0m74fvFOwWfr2QoHgZHnni",
+  "duree_ms": 88095
+ },
+ {
+  "date": "2026-11-25T22:40:29.941Z",
+  "titre": "TELEGRAM",
+  "id": "2OyOfXtgwmSmESLaUshBDO",
+  "artistes": [
+   "MUDA!"
+  ],
+  "album": "TELEGRAM",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02bbf271ce39e27e6165ec5ad2",
+  "lien": "https://open.spotify.com/track/2OyOfXtgwmSmESLaUshBDO",
+  "duree_ms": 100540
+ },
+ {
+  "date": "2026-11-25T22:43:10.516Z",
+  "titre": "La Chèvre",
+  "id": "0PC4NdVKfQoz0yDTJA9v1E",
+  "artistes": [
+   "Kaaris"
+  ],
+  "album": "La Chèvre",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b82d5eb5b9b38925f24e022b",
+  "lien": "https://open.spotify.com/track/0PC4NdVKfQoz0yDTJA9v1E",
+  "duree_ms": 160000
+ },
+ {
+  "date": "2026-11-25T22:52:43.738Z",
+  "titre": "How to Save a Life",
+  "id": "5fVZC9GiM4e8vu99W0Xf6J",
+  "artistes": [
+   "The Fray"
+  ],
+  "album": "How To Save A Life",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0259b8b957f164ce660919f1f4",
+  "lien": "https://open.spotify.com/track/5fVZC9GiM4e8vu99W0Xf6J",
+  "duree_ms": 262533
  }
 ]
