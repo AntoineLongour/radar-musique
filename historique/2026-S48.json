@@ -1450,5 +1450,79 @@
   "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
   "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
   "duree_ms": 244146
+ },
+ {
+  "date": "2026-11-26T12:55:58.772Z",
+  "titre": "I Love You",
+  "id": "5XhMgAWzou6EjDmQtoyoZE",
+  "artistes": [
+   "Fontaines D.C."
+  ],
+  "album": "Skinty Fia",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b23737878e75582c2e255029",
+  "lien": "https://open.spotify.com/track/5XhMgAWzou6EjDmQtoyoZE",
+  "duree_ms": 305800
+ },
+ {
+  "date": "2026-11-26T13:01:03.867Z",
+  "titre": "How to Save a Life",
+  "id": "5fVZC9GiM4e8vu99W0Xf6J",
+  "artistes": [
+   "The Fray"
+  ],
+  "album": "How To Save A Life",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e0259b8b957f164ce660919f1f4",
+  "lien": "https://open.spotify.com/track/5fVZC9GiM4e8vu99W0Xf6J",
+  "duree_ms": 262533
+ },
+ {
+  "date": "2026-11-26T13:10:06.784Z",
+  "titre": "BREATH",
+  "id": "7jRiYlv4KQU2vT6lG7I1to",
+  "artistes": [
+   "The Blaze"
+  ],
+  "album": "DANCEHALL",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02fb8b2c04222171f2c970d6ac",
+  "lien": "https://open.spotify.com/track/7jRiYlv4KQU2vT6lG7I1to",
+  "duree_ms": 229426
+ },
+ {
+  "date": "2026-11-26T13:14:11.467Z",
+  "titre": "Let's Play",
+  "id": "5KQ6jVizgxjd2XBn8qKKCh",
+  "artistes": [
+   "Dabeull",
+   "HolyBrune",
+   "Dezzy Hollow"
+  ],
+  "album": "Analog Love",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e029f0d28c5f9be9cf12b9c50c3",
+  "lien": "https://open.spotify.com/track/5KQ6jVizgxjd2XBn8qKKCh",
+  "duree_ms": 244146
+ },
+ {
+  "date": "2026-11-26T13:19:17.771Z",
+  "titre": "I Love You",
+  "id": "5XhMgAWzou6EjDmQtoyoZE",
+  "artistes": [
+   "Fontaines D.C."
+  ],
+  "album": "Skinty Fia",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e02b23737878e75582c2e255029",
+  "lien": "https://open.spotify.com/track/5XhMgAWzou6EjDmQtoyoZE",
+  "duree_ms": 305800
+ },
+ {
+  "date": "2026-11-26T13:23:46.663Z",
+  "titre": "Murder on My Mind",
+  "id": "7eBqSVxrzQZtK2mmgRG6lC",
+  "artistes": [
+   "YNW Melly"
+  ],
+  "album": "I AM YOU",
+  "pochette": "https://i.scdn.co/image/ab67616d00001e020f5397dc6aa91374897182e0",
+  "lien": "https://open.spotify.com/track/7eBqSVxrzQZtK2mmgRG6lC",
+  "duree_ms": 268434
  }
 ]
